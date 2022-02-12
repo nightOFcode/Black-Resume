@@ -7,20 +7,15 @@
 
     body {
         font-family: "Courier 10 Pitch", serif;
+        background: black;
+        /*display: block;*/
+        overflow: scroll;
     }
 
     #offcanvas {
         background: black;
     }
 
-    #background {
-        background-image: url("image/4141070.jpg");
-        height: 100vh;
-        /*background-attachment: revert;*/
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-    }
 
     #navbar-toggler {
         padding: 10px;
@@ -37,11 +32,24 @@
         color: black;
     }
 
-    #resume-holder {
-        font-size: 20px;
+    #background-1 {
+        background-image: url("image/4141070.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
     }
 
-    /*changing the bootstrap css*/
+    .background {
+        background-image: url("image/4141070.jpg");
+        height: 100vh;
+        background-attachment: fixed;
+        /*background-attachment: revert;*/
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+    }
+
     .btn {
         transition: 200ms;
     }
@@ -94,4 +102,92 @@
         color: black !important;
         transition: 200ms;
     }
+
+    .item-sidebar {
+        padding: 10px;
+        display: block;
+        text-decoration: none;
+        color: white;
+        transition: 200ms;
+        border-radius: 5px;
+    }
+
+    .holder-sidebar {
+        transition: 200ms;
+        font-size: 20px;
+        cursor: pointer;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .holder-sidebar:hover {
+        background: #a0a0a0;
+        color: black;
+    }
+
+    .list-sidebar {
+        /*display: block;*/
+        padding: 10px;
+        text-align: center;
+        display: none;
+        font-size: 20px;
+    }
+
+    .item-sidebar:hover {
+        background: #a0a0a0;
+        color: black;
+    }
+
+    .disabled {
+        cursor: default;
+    }
+
+    .disabled:hover {
+        background: black;
+    }
+
+    .reveal {
+        position: relative;
+        transform: translateY(150px);
+        opacity: 0;
+        transition: 500ms all ease;
+    }
+
+    .reveal.active {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    /*animation */
+
+    .active.fade-left {
+        animation: fade-left 750ms ease-in;
+    }
+
+    .active.fade-right {
+        animation: fade-right 750ms ease-in;
+    }
+
+    @keyframes fade-left {
+        0% {
+            transform: translateX(-100px);
+            opacity: 0;
+        }
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+
+    @keyframes fade-right {
+        0% {
+            transform: translateX(100px);
+            opacity: 0;
+        }
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+
 </style>
