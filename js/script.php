@@ -54,10 +54,10 @@
             var div2_bottom = div2_top + div2.height();
 
             if (div1_bottom >= div2_top && div1_top < div2_bottom) {
-                $(navbar).addClass('bg-dark');
+                $(navbar).addClass('color-background');
                 $(navbar).addClass('rounded-3');
             } else {
-                $(navbar).removeClass('bg-dark');
+                $(navbar).removeClass('color-background');
                 $(navbar).removeClass('rounded-3');
             }
 

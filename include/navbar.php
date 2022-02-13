@@ -1,6 +1,6 @@
-<nav class="navbar navbar-dark navbar-expand-xl fixed-top m-2">
+<nav class="navbar navbar-dark navbar-expand-xl fixed-top m-2 mt-0">
     <!--        offcanvas button-->
-    <button class="btn btn-dark bg-transparent ms-2" type="button" data-bs-toggle="offcanvas"
+    <button class="btn btn-dark text-light bg-transparent ms-2" type="button" data-bs-toggle="offcanvas"
             data-bs-target="#offcanvas" data-bs-placement="bottom" title="Sidebar">
         <i><<<</i>
     </button>
@@ -38,7 +38,7 @@
         <form class="my-2 text-center">
             <input type="text" class="form-control-sm placeholder-wave" placeholder="< search >"
                    aria-label="search">
-            <button class="btn btn-dark bg-transparent mx-2" type="submit">
+            <button class="btn btn-dark text-light bg-transparent mx-2" type="submit">
                 < submit >
             </button>
         </form>

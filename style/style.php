@@ -1,4 +1,6 @@
 <style>
+    /*body work*/
+
     * {
         margin: 0;
         padding: 0;
@@ -7,13 +9,15 @@
 
     body {
         font-family: "Courier 10 Pitch", serif;
-        background: black;
+        background: #202326;
         /*display: block;*/
-        overflow: scroll;
     }
 
+    /*ID selectors*/
+
+
     #offcanvas {
-        background: black;
+        background: #0e0f13;
     }
 
 
@@ -32,12 +36,23 @@
         color: black;
     }
 
-    #background-1 {
+    /*index page background fixer*/
+
+    #background {
         background-image: url("image/4141070.jpg");
         background-attachment: fixed;
         background-position: center;
         background-size: cover;
     }
+
+    /*index page scroll vertical fixer*/
+
+    #index-scroll {
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+
+    /*index page main background*/
 
     .background {
         background-image: url("image/4141070.jpg");
@@ -49,6 +64,8 @@
         background-size: cover;
         display: flex;
     }
+
+    /*bootstrap btn color and hover*/
 
     .btn {
         transition: 200ms;
@@ -64,6 +81,8 @@
         border: none;
     }
 
+    /*navbar item hover*/
+
     .nav-item {
         font-size: 20px;
         transition: 200ms;
@@ -77,6 +96,8 @@
         color: #a0a0a0 !important;
     }
 
+    /*navbar search input*/
+
     .form-control-sm {
         border: none;
         transition: 200ms;
@@ -88,6 +109,8 @@
         outline: none;
     }
 
+    /*font 20px using*/
+
     .font-20 {
         font-size: 20px;
         transition: 200ms;
@@ -97,11 +120,7 @@
         color: #a0a0a0;
     }
 
-    .dropdown-item:hover {
-        background: #a0a0a0 !important;
-        color: black !important;
-        transition: 200ms;
-    }
+    /*sidebar item (offcanvas)*/
 
     .item-sidebar {
         padding: 10px;
@@ -110,6 +129,11 @@
         color: white;
         transition: 200ms;
         border-radius: 5px;
+    }
+
+    .item-sidebar:hover {
+        background: #a0a0a0;
+        color: black;
     }
 
     .holder-sidebar {
@@ -133,10 +157,7 @@
         font-size: 20px;
     }
 
-    .item-sidebar:hover {
-        background: #a0a0a0;
-        color: black;
-    }
+    /*disabled link in the sidebar*/
 
     .disabled {
         cursor: default;
@@ -145,6 +166,20 @@
     .disabled:hover {
         background: black;
     }
+
+    /*navbar transition*/
+
+    .navbar {
+        transition: 300ms;
+    }
+
+    /*divs and elements special background color*/
+
+    .color-background {
+        background: #0e0f13;
+    }
+
+    /*animation */
 
     .reveal {
         position: relative;
@@ -158,7 +193,6 @@
         opacity: 1;
     }
 
-    /*animation */
 
     .active.fade-left {
         animation: fade-left 750ms ease-in;
