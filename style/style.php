@@ -5,16 +5,20 @@
         margin: 0;
         padding: 0;
         border-spacing: 0;
+        box-sizing: border-box;
     }
 
-    body {
-        font-family: "Courier 10 Pitch", serif;
-        background: #202326;
-        /*display: block;*/
+    html, body {
+        overflow: hidden;
+        width: 100%; /* restrict the page width to viewport */
+    }
+
+    html {
+
+        overflow-y: scroll;
     }
 
     /*ID selectors*/
-
 
     #offcanvas {
         background: #0e0f13;
@@ -39,23 +43,22 @@
     /*index page background fixer*/
 
     #background {
-        background-image: url("image/4141070.jpg");
+        background-image: url("image/background.jpg");
         background-attachment: fixed;
         background-position: center;
         background-size: cover;
+        width: 100%;
     }
 
-    /*index page scroll vertical fixer*/
-
-    #index-scroll {
-        overflow-x: hidden;
-        overflow-y: scroll;
-    }
 
     /*index page main background*/
 
+    .body {
+        background: #182026;
+    }
+
     .background {
-        background-image: url("image/4141070.jpg");
+        background-image: url("image/background.jpg");
         height: 100vh;
         background-attachment: fixed;
         /*background-attachment: revert;*/
@@ -176,7 +179,7 @@
     /*divs and elements special background color*/
 
     .color-background {
-        background: #0e0f13;
+        background: #182026;
     }
 
     /*animation */
@@ -195,11 +198,11 @@
 
 
     .active.fade-left {
-        animation: fade-left 750ms ease-in;
+        animation: fade-left 500ms ease-in;
     }
 
     .active.fade-right {
-        animation: fade-right 750ms ease-in;
+        animation: fade-right 500ms ease-in;
     }
 
     @keyframes fade-left {

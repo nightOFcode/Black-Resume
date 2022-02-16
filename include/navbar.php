@@ -1,4 +1,4 @@
-<nav class="navbar navbar-dark navbar-expand-xl fixed-top m-2 mt-0">
+<nav class="navbar navbar-dark navbar-expand-xl fixed-top mb-2">
     <!--        offcanvas button-->
     <button class="btn btn-dark text-light bg-transparent ms-2" type="button" data-bs-toggle="offcanvas"
             data-bs-target="#offcanvas" data-bs-placement="bottom" title="Sidebar">
