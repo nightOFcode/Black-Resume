@@ -10,13 +10,13 @@
     <!--    content-->
 </div>
 <div id="background">
-    <div id="content" class="p-4 p-sm-4">
+    <div id="content" class="p-4 p-sm-4 font-20">
         <div class="reveal fade-right container py-4">
             <div class="rounded-3 row color-background position-relative">
                 <div class="col-xxl-6 border-5 p-2">
                     <img src="image/1.jpg" class="w-100 rounded-3" alt="">
                 </div>
-                <div class="col-xxl-6 border-5 text-light font-20 p-4 p-md-4 text-capitalize">
+                <div class="col-xxl-6 border-5 text-light p-4 p-md-4 text-capitalize">
                     <b>
                         < BLACK RESUME >
                     </b>
@@ -41,8 +41,10 @@
                 <div class="col-xxl-6 border-5 p-2">
                     <img src="image/2.jpg" class="w-100 rounded-3" alt="">
                 </div>
-                <div class="col-xxl-6 border-5 text-light font-20 p-4 p-md-4 text-capitalize">
-                    < CONTACT US >
+                <div class="col-xxl-6 border-5 text-light p-4 p-md-4 text-capitalize">
+                    <b>
+                        < CONTACT US >
+                    </b>
                     <br>
                     <br>
                     < this site is in develop
@@ -51,7 +53,7 @@
                     <br>
                     < and tell your opinion
                     <br>
-                    < i will br happy to improve the site
+                    < i will br happy to improve it
                     <br>
                     < please contact me >
                     <br>
@@ -59,13 +61,13 @@
                     <br>
                     <br>
                     <button class="btn d-flex float-end" href="" id="info-btn">
-                            < Contact >
+                        < Contact >
                     </button>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<?php include 'include/footer.php' ?>
+<?php include 'include/script-holder.php' ?>
 </body>
 </html>

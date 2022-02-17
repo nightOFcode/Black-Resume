@@ -215,6 +215,12 @@
     .active.fade-right {
         animation: fade-right 500ms ease-in;
     }
+    
+    @media (max-width: 600px) {
+        #content {
+            font-size: 16px!important;
+        }
+    }
 
     @keyframes fade-left {
         0% {
