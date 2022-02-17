@@ -1,18 +1,18 @@
 <nav class="navbar navbar-dark navbar-expand-xl fixed-top mb-2 pb-0 pt-0 rounded-bottom">
     <!--        offcanvas button-->
-    <button class="btn btn-dark text-light bg-transparent ms-2" type="button" data-bs-toggle="offcanvas"
+    <button class="btn ms-1" type="button" data-bs-toggle="offcanvas"
             data-bs-target="#offcanvas" data-bs-placement="bottom" title="Sidebar">
         <i><<<</i>
     </button>
     <!--                navbar brand-->
-    <a class="navbar-brand ms-3 nav-hover" href="#" data-bs-toggle="tooltip" data-popper-placement="bottom"
+    <a class="navbar-brand ms-3 nav-hover" href="index.php" target="_self" data-bs-toggle="tooltip" data-popper-placement="bottom"
        title="Black resume page">
-        < Black resume >
+        < Black Resume >
     </a>
     <!--        navbar button-->
-    <button class="btn bg-transparent navbar-toggler me-2" type="button" data-bs-toggle="collapse"
+    <button class="btn navbar-toggler me-1" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbar"
-            aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation" id="navbar-toggler">
         <i class="bi-list-stars"></i>
     </button>
     <!--        navbar content-->
@@ -38,7 +38,7 @@
         <form class="text-center">
             <input type="text" class="form-control-sm placeholder-wave pb-2" placeholder="< search >"
                    aria-label="search">
-            <button class="btn btn-dark text-light bg-transparent mx-2" type="submit">
+            <button class="btn  mx-2" type="submit">
                 < submit >
             </button>
         </form>

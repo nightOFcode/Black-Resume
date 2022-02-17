@@ -24,10 +24,16 @@
         background: #0e0f13;
     }
 
+    /*navbar toggler index page */
 
     #navbar-toggler {
         padding: 10px;
+        color: white;
         border: none;
+    }
+
+    #navbar-toggler:hover {
+        color: black;
     }
 
     #dropdownMenuButton {
@@ -48,18 +54,6 @@
         background-position: center;
         background-size: cover;
         width: 100%;
-    }
-
-    /*info btn in index contact*/
-    #info-btn {
-        background: #0e0f13;
-        transition: 200ms;
-        color: white;
-    }
-
-    #info-btn:hover {
-        background: #a0a0a0;
-        color: black;
     }
 
     /*index page main background*/
@@ -83,16 +77,30 @@
 
     .btn {
         transition: 200ms;
+        background: transparent;
+        color: white!important;
     }
 
     .btn:hover {
-        color: #a0a0a0;
+        color: black!important;
+        background: #a0a0a0;
     }
 
     .btn:focus {
         outline: none !important;
         box-shadow: none !important;
         border: none;
+    }
+
+    .info-button {
+        background: #0e0f13;
+        transition: 200ms;
+        color: white!important;
+    }
+
+    .info-button:hover {
+        background: #a0a0a0;
+        color: black!important;
     }
 
     /*navbar item hover*/

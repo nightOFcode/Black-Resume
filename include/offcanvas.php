@@ -3,9 +3,9 @@
     <div class="offcanvas-header">
         <header class="offcanvas-title text-light font-20" id="offcanvasLabel">< Black resume ></header>
         <!--        offcanvas button-->
-        <button type="button" class="btn btn-dark bg-transparent text-reset" id="offcanvas-btn" data-bs-dismiss="offcanvas"
+        <button type="button" class="btn text-reset" id="offcanvas-btn" data-bs-dismiss="offcanvas"
                 aria-label="Close">
-            <i class="bi bi-caret-left text-light"></i>
+            <i class="bi bi-caret-left"></i>
         </button>
     </div>
     <!--    offcanvas body-->

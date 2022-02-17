@@ -1,7 +1,7 @@
 <?php include 'include/header.php'; ?>
 <html lang="en">
 <body>
-<div class="img-fluid background container-fluid"></div>
+<div class="img-fluid background"></div>
 <div class="container-fluid text-reset">
     <!--    navbar-->
     <?php include "include/navbar.php"; ?>
@@ -60,7 +60,7 @@
                     <br>
                     <br>
                     <br>
-                    <button class="btn d-flex float-end" href="" id="info-btn">
+                    <button class="btn info-button d-flex float-end" href="">
                         < Contact >
                     </button>
                 </div>
