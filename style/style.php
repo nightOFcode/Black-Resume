@@ -50,6 +50,17 @@
         width: 100%;
     }
 
+    /*info btn in index contact*/
+    #info-btn {
+        background: #0e0f13;
+        transition: 200ms;
+        color: white;
+    }
+
+    #info-btn:hover {
+        background: #a0a0a0;
+        color: black;
+    }
 
     /*index page main background*/
 
@@ -107,7 +118,7 @@
     }
 
     .form-control-sm:focus {
-        background: #182026;
+        background: #0e0f13;
         color: white;
         outline: none;
     }

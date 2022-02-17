@@ -16,12 +16,23 @@
                 <div class="col-xxl-6 border-5 p-2">
                     <img src="image/1.jpg" class="w-100 rounded-3" alt="">
                 </div>
-                <div class="col-xxl-6 border-5 text-light font-20 pe-4 ps-4 pt-2 pb-2 p-md-4 text-capitalize">
+                <div class="col-xxl-6 border-5 text-light font-20 p-4 p-md-4 text-capitalize">
                     <b>
-                        < BLACK SPACE >
+                        < BLACK RESUME >
                     </b>
                     <br>
-                    < Here we make your dreams true >
+                    <br>
+                    < Here we make your dreams true
+                    <br>
+                    < imagine having your dream site
+                    <br>
+                    < with float ui & colorful design
+                    <br>
+                    < no errors and problems
+                    <br>
+                    < with support options
+                    <br>
+                    < and other futures
                 </div>
             </div>
         </div>
@@ -30,11 +41,26 @@
                 <div class="col-xxl-6 border-5 p-2">
                     <img src="image/2.jpg" class="w-100 rounded-3" alt="">
                 </div>
-                <div class="col-xxl-6 border-5 text-light font-20 pe-4 ps-4 pt-2 pb-2 p-md-4">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error et ipsa laborum officia
-                    provident
-                    unde ut voluptatibus. Adipisci, alias atque consectetur illo mollitia nesciunt non quae quam
-                    reiciendis repellendus, repudiandae!
+                <div class="col-xxl-6 border-5 text-light font-20 p-4 p-md-4 text-capitalize">
+                    < CONTACT US >
+                    <br>
+                    <br>
+                    < this site is in develop
+                    <br>
+                    < so feel free to contact us
+                    <br>
+                    < and tell your opinion
+                    <br>
+                    < i will br happy to improve the site
+                    <br>
+                    < please contact me >
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <button class="btn d-flex float-end" href="" id="info-btn">
+                            < Contact >
+                    </button>
                 </div>
             </div>
         </div>

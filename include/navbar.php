@@ -1,4 +1,4 @@
-<nav class="navbar navbar-dark navbar-expand-xl fixed-top mb-2">
+<nav class="navbar navbar-dark navbar-expand-xl fixed-top mb-2 pb-0 pt-0 rounded-bottom">
     <!--        offcanvas button-->
     <button class="btn btn-dark text-light bg-transparent ms-2" type="button" data-bs-toggle="offcanvas"
             data-bs-target="#offcanvas" data-bs-placement="bottom" title="Sidebar">
@@ -35,8 +35,8 @@
                    title="Black Space site">< Black Space ></a>
             </div>
         </div>
-        <form class="my-2 text-center">
-            <input type="text" class="form-control-sm placeholder-wave" placeholder="< search >"
+        <form class="text-center">
+            <input type="text" class="form-control-sm placeholder-wave pb-2" placeholder="< search >"
                    aria-label="search">
             <button class="btn btn-dark text-light bg-transparent mx-2" type="submit">
                 < submit >
