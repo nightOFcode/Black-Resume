@@ -1,9 +1,10 @@
 <script>
 
     $(document).ready(function () {
-        var resume_list = $("#resume-list");
         var visible = $('#offcanvas').is("visible");
-        var network_list = $("#network-list");
+        var resume_list = $("#resume-list");
+
+        /*resume offcanvas jq*/
 
         $('#resume-holder').click(function () {
             if ($(resume_list).css("display") === "none") {
@@ -13,6 +14,10 @@
             }
         });
 
+        /*network offcanvas jq*/
+
+        var network_list = $("#network-list");
+
         $('#network-holder').click(function () {
             if ($(network_list).css("display") === "none") {
                 $(network_list).slideToggle(500);
@@ -20,6 +25,8 @@
                 $(network_list).slideToggle(500);
             }
         });
+
+        /*closed offcanvas trigger*/
 
         $("#offcanvas-btn").click(function () {
             if (visible === 'false') {
@@ -30,6 +37,8 @@
                 $(network_list).hide();
             }
         });
+
+        /*closed offcanvas trigger on key*/
 
         $(document).on('keydown', function (event) {
             if (event.key === "Escape") {
@@ -42,6 +51,8 @@
                 }
             }
         });
+
+        /*navbar background change on scroll*/
 
         var navbar = $(".navbar");
 
@@ -64,6 +75,8 @@
         });
     });
 
+    /*animation jq*/
+
     function reveal() {
         var reveals = document.querySelectorAll(".reveal");
 
@@ -81,4 +94,25 @@
     }
 
     window.addEventListener("scroll", reveal);
+
+    /*message alerting hider*/
+
+    var timeout;
+
+    $(document).ready(function () {
+        timeout = window.setTimeout(hideMessage, 2000)
+    });
+
+    function hideMessage() {
+        $('#index-alert').animate(
+            {opacity: 0}, 800
+            , function () {
+                $('#index-alert').css(
+                    {
+                        display: 'none'
+                    }
+                )
+            }
+        );
+    }
 </script>

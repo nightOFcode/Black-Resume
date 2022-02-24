@@ -1,16 +1,25 @@
-<?php include 'include/header.php'; ?>
+<!doctype html>
 <html lang="en">
+<?php include 'include/header.php'; ?>
 <body>
 <div class="img-fluid background"></div>
-<div class="container-fluid text-reset">
-    <!--    navbar-->
+<div class="container-fluid">
+    <!--navbar-->
     <?php include "include/navbar.php"; ?>
-    <!--    offcanvas "sidebar"-->
+    <!--offcanvas "sidebar"-->
     <?php include "include/offcanvas.php"; ?>
-    <!--    content-->
 </div>
+<!--second background-->
 <div id="background">
+    <!--alert notifier-->
+    <div class="container-fluid" id="index-alert">
+        <div class="container-fluid d-flex justify-content-center">
+            scroll down :)
+        </div>
+    </div>
+    <!--content-->
     <div id="content" class="p-4 p-sm-4 font-20">
+        <!--content 1-->
         <div class="reveal fade-right container py-4">
             <div class="rounded-3 row color-background position-relative">
                 <div class="col-xxl-6 border-5 p-2">
@@ -22,7 +31,7 @@
                     </b>
                     <br>
                     <br>
-                    < Here we make your dreams true
+                    < we make your dreams come true
                     <br>
                     < imagine having your dream site
                     <br>
@@ -32,10 +41,11 @@
                     <br>
                     < with support options
                     <br>
-                    < and other futures
+                    < and other features
                 </div>
             </div>
         </div>
+        <!--content2-->
         <div class="reveal fade-left container py-4">
             <div class="rounded-3 row color-background position-relative">
                 <div class="col-xxl-6 border-5 p-2">
@@ -53,9 +63,9 @@
                     <br>
                     < and tell your opinion
                     <br>
-                    < i will br happy to improve it
+                    < i will be happy to improve it
                     <br>
-                    < please contact me >
+                    <<< contact me >>>
                     <br>
                     <br>
                     <br>
@@ -67,7 +77,10 @@
             </div>
         </div>
     </div>
+    <!--footer-->
+    <?php include "include/footer.php"; ?>
 </div>
+<!--scripts-->
 <?php include 'include/script-holder.php' ?>
 </body>
 </html>

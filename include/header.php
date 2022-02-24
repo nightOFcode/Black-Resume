@@ -1,4 +1,3 @@
-<!doctype html>
 <head>
     <meta charset="UTF-8">
     <meta content="IE=ed">

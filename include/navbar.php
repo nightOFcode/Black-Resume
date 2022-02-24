@@ -1,26 +1,26 @@
 <nav class="navbar navbar-dark navbar-expand-xl fixed-top mb-2 pb-0 pt-0 rounded-bottom">
-    <!--        offcanvas button-->
+    <!--offcanvas button-->
     <button class="btn ms-1" type="button" data-bs-toggle="offcanvas"
             data-bs-target="#offcanvas" data-bs-placement="bottom" title="Sidebar">
         <i><<<</i>
     </button>
-    <!--                navbar brand-->
+    <!--navbar brand-->
     <a class="navbar-brand ms-3 nav-hover" href="index.php" target="_self" data-bs-toggle="tooltip" data-popper-placement="bottom"
        title="Black resume page">
-        < Black Resume >
+        < Home >
     </a>
-    <!--        navbar button-->
+    <!--navbar button-->
     <button class="btn navbar-toggler me-1" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbar"
             aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation" id="navbar-toggler">
         <i class="bi-list-stars"></i>
     </button>
-    <!--        navbar content-->
+    <!--navbar content-->
     <div class="collapse navbar-collapse" id="navbar">
         <div class="navbar-nav me-auto">
-            <!--                big navbar content-->
+            <!--big navbar content-->
             <div class="nav-item mx-2 text-center">
-                <a href="#" class="nav-link text-light nav-hover" data-bs-toggle="tooltip"
+                <a href="contact.php" class="nav-link text-light nav-hover" data-bs-toggle="tooltip"
                    data-popper-placement="bottom"
                    title="Contact Page">< Contact ></a>
             </div>
@@ -35,10 +35,12 @@
                    title="Black Space site">< Black Space ></a>
             </div>
         </div>
+        <!--form input-->
         <form class="text-center">
+            <!--input search-->
             <input type="text" class="form-control-sm placeholder-wave pb-2" placeholder="< search >"
                    aria-label="search">
-            <button class="btn  mx-2" type="submit">
+            <button class="btn mx-2" type="submit">
                 < submit >
             </button>
         </form>

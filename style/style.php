@@ -9,13 +9,12 @@
     }
 
     html, body {
-        overflow: hidden;
-        width: 100%; /* restrict the page width to viewport */
+        /*overflow: hidden;*/
+        /*width: 100%; !* restrict the page width to viewport *!*/
     }
 
     html {
-
-        overflow-y: scroll;
+        /*overflow-y: hidden;*/
     }
 
     /*ID selectors*/
@@ -53,7 +52,45 @@
         background-attachment: fixed;
         background-position: center;
         background-size: cover;
-        width: 100%;
+        /*width: 100%;*/
+    }
+
+    /*contact page background*/
+    #background-contact {
+        background-image: url("image/contact-pic.png");
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+    }
+
+    /*alert*/
+
+    #index-alert {
+        text-align: center;
+        position: absolute;
+        top: 100px;
+    }
+
+    #index-alert div {
+        background: #182026;
+        width: 25%;
+        padding: 10px;
+        border-radius: 5px;
+        color: white;
+
+    }
+
+    /*content in index*/
+
+    #content {
+        overflow: hidden;
+    }
+
+    #contact-margin {
+        margin-top: 100px;
+        border-radius: 5px;
+        width: 60%;
     }
 
     /*index page main background*/
@@ -78,11 +115,11 @@
     .btn {
         transition: 200ms;
         background: transparent;
-        color: white!important;
+        color: white !important;
     }
 
     .btn:hover {
-        color: black!important;
+        color: black !important;
         background: #a0a0a0;
     }
 
@@ -95,12 +132,12 @@
     .info-button {
         background: #0e0f13;
         transition: 200ms;
-        color: white!important;
+        color: white !important;
     }
 
     .info-button:hover {
         background: #a0a0a0;
-        color: black!important;
+        color: black !important;
     }
 
     /*navbar item hover*/
@@ -131,7 +168,38 @@
         outline: none;
     }
 
-    /*font 20px using*/
+    /*contact form*/
+
+    .form {
+        display: block;
+        padding: 7px;
+        border: none;
+        transition: 200ms;
+        outline: none;
+        width: 100%;
+    }
+
+    .form:focus {
+        color: white;
+        background: #0e0f13;
+    }
+
+    /*textarea contact*/
+    .textarea {
+        display: block;
+        padding: 5px;
+        width: 100%;
+        height: 100px;
+        border: none;
+        transition: 200ms;
+    }
+
+    .textarea:focus {
+        color: white;
+        background: #0e0f13;
+    }
+
+    /*20px font*/
 
     .font-20 {
         font-size: 20px;
@@ -179,6 +247,15 @@
         font-size: 20px;
     }
 
+    .offcanvas-brand {
+        color: white;
+        transition: 200ms;
+    }
+
+    .offcanvas-brand:hover {
+        color: #a0a0a0;
+    }
+
     /*disabled link in the sidebar*/
 
     .disabled {
@@ -201,13 +278,64 @@
         background: #182026;
     }
 
-    /*animation */
+    /*footer change*/
+
+    .footer-text {
+        font-size: 20px !important;
+    }
+
+    .footer-link {
+        color: white;
+        transition: 200ms;
+    }
+
+    /*footer link change*/
+
+    .footer-link:hover {
+        color: #a0a0a0;
+    }
+
+
+    /*media size responding*/
+
+    @media (max-width: 1100px) {
+        #contact-margin {
+            width: 70%;
+        }
+
+    }
+
+    @media (max-width: 900px) {
+        #index-alert div {
+            background: #a0a0a0;
+            width: 50%;
+        }
+
+        #contact-margin {
+            width: 100%;
+        }
+    }
+
+    @media (max-width: 600px) {
+        /*index content respond*/
+        #content {
+            font-size: 16px !important;
+        }
+
+
+        /*footer text respond*/
+        .footer-text {
+            font-size: 17px !important;
+        }
+    }
+
+    /*animations*/
 
     .reveal {
         position: relative;
-        transform: translateY(150px);
+        /*transform: translateY(150px);*/
         opacity: 0;
-        transition: 500ms all ease;
+        transition: 500ms ease-in-out 200ms;
     }
 
     .reveal.active {
@@ -217,18 +345,13 @@
 
 
     .active.fade-left {
-        animation: fade-left 500ms ease-in;
+        animation: fade-left 500ms ease-in-out 200ms;
     }
 
     .active.fade-right {
-        animation: fade-right 500ms ease-in;
+        animation: fade-right 500ms ease-in-out 200ms;
     }
-    
-    @media (max-width: 600px) {
-        #content {
-            font-size: 16px!important;
-        }
-    }
+
 
     @keyframes fade-left {
         0% {
