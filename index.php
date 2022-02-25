@@ -82,5 +82,6 @@
 </div>
 <!--scripts-->
 <?php include 'include/script-holder.php' ?>
+<?php include "script/index-js.php";?>
 </body>
 </html>

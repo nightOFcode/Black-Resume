@@ -7,16 +7,6 @@
         border-spacing: 0;
         box-sizing: border-box;
     }
-
-    html, body {
-        /*overflow: hidden;*/
-        /*width: 100%; !* restrict the page width to viewport *!*/
-    }
-
-    html {
-        /*overflow-y: hidden;*/
-    }
-
     /*ID selectors*/
 
     #offcanvas {
@@ -62,6 +52,7 @@
         background-position: center;
         background-size: cover;
         height: 100vh;
+        overflow: hidden;
     }
 
     /*alert*/
@@ -88,9 +79,14 @@
     }
 
     #contact-margin {
-        margin-top: 100px;
+        margin-top: 100px!important;
         border-radius: 5px;
         width: 60%;
+    }
+
+    /*button contact*/
+    #btn-contact {
+        text-align: right;
     }
 
     /*index page main background*/
@@ -113,6 +109,7 @@
     /*bootstrap btn color and hover*/
 
     .btn {
+        padding: 5px;
         transition: 200ms;
         background: transparent;
         color: white !important;
@@ -187,7 +184,7 @@
     /*textarea contact*/
     .textarea {
         display: block;
-        padding: 5px;
+        padding: 10px;
         width: 100%;
         height: 100px;
         border: none;
@@ -295,13 +292,18 @@
         color: #a0a0a0;
     }
 
-
     /*media size responding*/
 
-    @media (max-width: 1100px) {
+    @media (max-width: 1199px) {
         #contact-margin {
             width: 70%;
         }
+
+        #navbar {
+            background-image:url("image/background.jpg") ;
+        }
+
+
 
     }
 
@@ -322,10 +324,15 @@
             font-size: 16px !important;
         }
 
-
         /*footer text respond*/
         .footer-text {
             font-size: 17px !important;
+        }
+    }
+    
+    @media (max-height: 740px) {
+        #background-contact {
+            overflow: scroll;
         }
     }
 
