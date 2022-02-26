@@ -3,7 +3,9 @@
 
     $(document).ready(
         $(window).scroll(function () {
+            /*upper div*/
             var div1 = $(navbar);
+            /*the bottom div*/
             var div2 = $("#contact-clean");
             var div1_top = div1.offset().top;
             var div2_top = div2.offset().top;

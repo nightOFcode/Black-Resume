@@ -7,6 +7,7 @@
         border-spacing: 0;
         box-sizing: border-box;
     }
+
     /*ID selectors*/
 
     #offcanvas {
@@ -79,7 +80,7 @@
     }
 
     #contact-margin {
-        margin-top: 100px!important;
+        margin-top: 100px !important;
         border-radius: 5px;
         width: 60%;
     }
@@ -300,11 +301,12 @@
         }
 
         #navbar {
-            background-image:url("image/background.jpg") ;
+            background-image: url("image/background.jpg");
         }
 
-
-
+        #search-from {
+            padding: 10px 10px;
+        }
     }
 
     @media (max-width: 900px) {
@@ -328,8 +330,12 @@
         .footer-text {
             font-size: 17px !important;
         }
+
+        #btn-contact {
+            text-align: center;
+        }
     }
-    
+
     @media (max-height: 740px) {
         #background-contact {
             overflow: scroll;

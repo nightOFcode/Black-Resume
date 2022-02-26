@@ -5,7 +5,8 @@
         <i><<<</i>
     </button>
     <!--navbar brand-->
-    <a class="navbar-brand ms-3 nav-hover" href="index.php" target="_self" data-bs-toggle="tooltip" data-popper-placement="bottom"
+    <a class="navbar-brand ms-3 nav-hover" href="index.php" target="_self" data-bs-toggle="tooltip"
+       data-popper-placement="bottom"
        title="Black resume page">
         < Home >
     </a>
@@ -36,7 +37,7 @@
             </div>
         </div>
         <!--form input-->
-        <form class="text-center">
+        <form class="text-center" id="search-from">
             <!--input search-->
             <input type="text" class="form-control-sm placeholder-wave pb-2" placeholder="< search >"
                    aria-label="search">

@@ -1,8 +1,6 @@
 <!doctype html>
 <html lang="en">
 <?php include "include/header.php"; ?>
-<!--recaptcha api-->
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <body  id="background-contact">
 <div class="container-fluid">
     <!--navbar-->
@@ -43,9 +41,9 @@
                               placeholder="Input Your Message" required minlength="15" maxlength="200"></textarea>
                 </div>
                 <!--captcha here-->
-                <div class="captcha-holder mb-4">
+                <div class="mb-4">
                     <div class="g-recaptcha" data-sitekey="6LdxaZ8eAAAAAMmUAPVRVvFtvpXLtYg8xhmU7hUk"
-                         data-theme="dark"></div>
+                         data-theme="dark" data-callback='onRecaptchaSuccess'></div>
                 </div>
                 <div id="btn-contact">
                     <button type="submit" class="btn info-button">
@@ -63,5 +61,7 @@
 <!--scripts-->
 <?php include "include/script-holder.php"; ?>
 <?php include "script/contact-js.php";?>
+<!--recaptcha api-->
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </body>
 </html>
