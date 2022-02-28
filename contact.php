@@ -1,13 +1,17 @@
 <!doctype html>
 <html lang="en">
 <?php include "include/header.php"; ?>
-<body  id="background-contact">
+<body id="background-contact">
+<!--recaptcha api-->
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <div class="container-fluid">
     <!--navbar-->
     <?php include "include/navbar.php"; ?>
     <!--offcanvas "sidebar"-->
     <?php include "include/offcanvas.php"; ?>
 </div>
+<!--SERVER SIDE FORM INCLUDE-->
+<?php include "serverside/form.php"; ?>
 <div>
     <div class="container" id="contact-clean">
         <div id="contact-margin" class="color-background">
@@ -42,11 +46,11 @@
                 </div>
                 <!--captcha here-->
                 <div class="mb-4">
-                    <div class="g-recaptcha" data-sitekey="6LdxaZ8eAAAAAMmUAPVRVvFtvpXLtYg8xhmU7hUk"
-                         data-theme="dark" data-callback='onRecaptchaSuccess'></div>
+                    <div class="g-recaptcha" data-sitekey=""
+                         data-theme="dark"></div>
                 </div>
                 <div id="btn-contact">
-                    <button type="submit" class="btn info-button">
+                    <button type="submit" class="btn info-button" name="send">
                         < submit >
                     </button>
                 </div>
@@ -60,8 +64,6 @@
 </div>
 <!--scripts-->
 <?php include "include/script-holder.php"; ?>
-<?php include "script/contact-js.php";?>
-<!--recaptcha api-->
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<?php include "script/contact-js.php"; ?>
 </body>
 </html>
