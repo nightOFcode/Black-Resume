@@ -31,9 +31,9 @@
             </div>
             <div class="container bg-dark rounded-3 list-sidebar" id="network-list">
                 <a href="" class="network-item my-2 item-sidebar">< Team Discord ></a>
-                <a href="" class="network-item my-2 item-sidebar">< Team Github ></a>
-                <a href="" class="network-item my-2 item-sidebar">< My Discord ></a>
-                <a href="" class="network-item my-2 item-sidebar">< My Github ></a>
+                <a href="https://github.com/BlackSpaceTeam" class="network-item my-2 item-sidebar">< Team Github ></a>
+                <a href="https://discord.com/channels/6998" class="network-item my-2 item-sidebar">< My Discord ></a>
+                <a href="https://github.com/nightOFcode" class="network-item my-2 item-sidebar">< My Github ></a>
             </div>
         </div>
         <!--disabled links-->
