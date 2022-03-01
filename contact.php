@@ -44,7 +44,7 @@
                 </div>
                 <!--captcha here-->
                 <div class="mb-4">
-                    <div class="g-recaptcha" data-sitekey="6LdZXakeAAAAAA2Ki3pfZCQcwBR-09gPt2AxzARV"
+                    <div class="g-recaptcha" data-sitekey="site-key"
                          data-theme="dark"></div>
                 </div>
                 <div id="btn-contact">
