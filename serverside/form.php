@@ -72,7 +72,7 @@ if (isset($_POST['send'])) {
             /*RECAPTCHA FAILED*/
         } else {
             $_SESSION['error'] = "Captcha Failed!";
-        }
+        }/////
     }
 }
 
