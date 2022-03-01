@@ -30,8 +30,8 @@ if (isset($_POST['send'])) {
             $mail->isSMTP();
             $mail->Host = 'smtp.gmail.com';
             $mail->SMTPAuth = true;
-            $mail->Username = 'a.h.shirazi1380.20@gmail.com';
-            $mail->Password = '09388383405';
+            $mail->Username = 'your-email';
+            $mail->Password = 'youe-password';
             $mail->SMTPSecure = 'tls';
             $mail->Port = 587;
 
@@ -40,7 +40,7 @@ if (isset($_POST['send'])) {
             $mail->setFrom($email, $name);
             $mail->addReplyTo($email, $name);
             /*RECEIVER*/
-            $mail->addAddress('a.h.shirazi1380.20@gmail.com');
+            $mail->addAddress('your-email');
 
             /*MAIL HTML*/
             $mail->isHTML(true);
