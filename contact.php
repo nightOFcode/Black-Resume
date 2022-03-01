@@ -15,10 +15,23 @@
         <div id="contact-margin" class="color-background">
             <form action="contact.php" name="ContactForm" method="post" class="text-light w-auto p-3 p-sm-4">
                 <!--error here-->
-                <div id="form-error" class="w-auto">
-
+                <div id="form-error">
+                    <!--error message-->
+                    <?php if (!empty($_SESSION['error'])) : ?>
+                        <div class="alert alert-danger text-light text-center  bg-danger">
+                            <?php echo $_SESSION['error']; ?>
+                            <?php unset($_SESSION['error']); ?>
+                        </div>
+                    <?php endif; ?>
+                    <!--success message-->
+                    <?php if (!empty($_SESSION['success'])) : ?>
+                        <div class="alert alert-success text-light text-center bg-success">
+                            <?php echo $_SESSION['success']; ?>
+                            <?php unset($_SESSION['success']); ?>
+                        </div>
+                    <?php endif; ?>
                 </div>
-                <!--content-->
+                <!--FORM CONTENT -->
                 <div class="mb-4">
                     <label for="form-name" class="form-label mb-2">
                         Name :
@@ -44,7 +57,7 @@
                 </div>
                 <!--captcha here-->
                 <div class="mb-4">
-                    <div class="g-recaptcha" data-sitekey="6LdZXakeAAAAAA2Ki3pfZCQcwBR-09gPt2AxzARV"
+                    <div class="g-recaptcha" data-sitekey="6LeBPKoeAAAAAD63FxvWvLc0NaBWcBLz1K1gvgut"
                          data-theme="dark"></div>
                 </div>
                 <div id="btn-contact">

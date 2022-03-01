@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 /*REQUIRING PHPMAILER*/
 
 use PHPMailer\PHPMailer\PHPMailer;
@@ -19,7 +21,7 @@ if (isset($_POST['send'])) {
     /*CAPTCHA VALIDATION*/
     if (isset($_POST['g-recaptcha-response'])) {
         /*GOOGLE SECRET API*/
-        $secretAPIkey = '6LdZXakeAAAAAKmGe4XRQZ1ZD_EtO8Y3vO_o5psI';
+        $secretAPIkey = '6LeBPKoeAAAAAEZAT5ToZaGuFf9WOkPrNflKfrjk';
         /*RECAPTCHA VERIFICATION RESPONCE*/
         $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $secretAPIkey . '&response=' . $_POST['g-recaptcha-response']);
         /*DECODE RESPONCE DATA (JSON)*/
@@ -63,18 +65,16 @@ if (isset($_POST['send'])) {
 
             /*MESSAGE SEND FAILED*/
             if (!$mail->send()) {
-                echo 'mail failed';
+                $_SESSION['error'] = "Sending Email Failed!";
             } else {
-                echo '';
+                $_SESSION['success'] = "Thanks For Contacting Us";
             }
             /*RECAPTCHA FAILED*/
         } else {
-            echo 'reCAPTCHA failed';
+            $_SESSION['error'] = "Captcha Failed!";
         }
 
         /*RECAPTCHA NOT FILED*/
-    } else {
-        echo 'check reCAPTCHA';
     }
 }
 
