@@ -57,7 +57,7 @@
                 </div>
                 <!--captcha here-->
                 <div class="mb-4">
-                    <div class="g-recaptcha" data-sitekey="6LeBPKoeAAAAAD63FxvWvLc0NaBWcBLz1K1gvgut"
+                    <div class="g-recaptcha" data-sitekey="*************************************"
                          data-theme="dark"></div>
                 </div>
                 <div id="btn-contact">
