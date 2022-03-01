@@ -21,7 +21,7 @@ if (isset($_POST['send'])) {
     /*CAPTCHA VALIDATION*/
     if (isset($_POST['g-recaptcha-response'])) {
         /*GOOGLE SECRET API*/
-        $secretAPIkey = '6LeBPKoeAAAAAEZAT5ToZaGuFf9WOkPrNflKfrjk';
+        $secretAPIkey = '***********************';
         /*RECAPTCHA VERIFICATION RESPONCE*/
         $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $secretAPIkey . '&response=' . $_POST['g-recaptcha-response']);
         /*DECODE RESPONCE DATA (JSON)*/
@@ -32,8 +32,8 @@ if (isset($_POST['send'])) {
             $mail->isSMTP();
             $mail->Host = 'smtp.gmail.com';
             $mail->SMTPAuth = true;
-            $mail->Username = 'a.h.shirazi1380.20@gmail.com';
-            $mail->Password = '09388383405';
+            $mail->Username = '***********************';
+            $mail->Password = '**********';
             $mail->SMTPSecure = 'tls';
             $mail->Port = 587;
 
@@ -42,7 +42,7 @@ if (isset($_POST['send'])) {
             $mail->setFrom($email, $name);
             $mail->addReplyTo($email, $name);
             /*RECEIVER*/
-            $mail->addAddress('a.h.shirazi1380.20@gmail.com');
+            $mail->addAddress('**********************');
 
             /*MAIL HTML*/
             $mail->isHTML(true);
