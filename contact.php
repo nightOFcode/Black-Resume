@@ -2,8 +2,6 @@
 <html lang="en">
 <?php include "include/header.php"; ?>
 <body id="background-contact">
-<!--recaptcha api-->
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <div class="container-fluid">
     <!--navbar-->
     <?php include "include/navbar.php"; ?>
@@ -15,7 +13,7 @@
 <div>
     <div class="container" id="contact-clean">
         <div id="contact-margin" class="color-background">
-            <form action="" method="post" class="text-light w-auto p-3 p-sm-4">
+            <form action="contact.php" name="ContactForm" method="post" class="text-light w-auto p-3 p-sm-4">
                 <!--error here-->
                 <div id="form-error" class="w-auto">
 
@@ -46,7 +44,7 @@
                 </div>
                 <!--captcha here-->
                 <div class="mb-4">
-                    <div class="g-recaptcha" data-sitekey=""
+                    <div class="g-recaptcha" data-sitekey="6LdZXakeAAAAAA2Ki3pfZCQcwBR-09gPt2AxzARV"
                          data-theme="dark"></div>
                 </div>
                 <div id="btn-contact">
@@ -65,5 +63,7 @@
 <!--scripts-->
 <?php include "include/script-holder.php"; ?>
 <?php include "script/contact-js.php"; ?>
+<!--recaptcha api-->
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </body>
 </html>
