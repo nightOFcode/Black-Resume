@@ -19,7 +19,7 @@ if (isset($_POST['send'])) {
     /*CAPTCHA VALIDATION*/
     if (isset($_POST['g-recaptcha-response'])) {
         /*GOOGLE SECRET API*/
-        $secretAPIkey = '6LdZXakeAAAAAKmGe4XRQZ1ZD_EtO8Y3vO_o5psI';
+        $secretAPIkey = 'secret key';
         /*RECAPTCHA VERIFICATION RESPONCE*/
         $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $secretAPIkey . '&response=' . $_POST['g-recaptcha-response']);
         /*DECODE RESPONCE DATA (JSON)*/
