@@ -73,8 +73,6 @@ if (isset($_POST['send'])) {
         } else {
             $_SESSION['error'] = "Captcha Failed!";
         }
-
-        /*RECAPTCHA NOT FILED*/
     }
 }
 
