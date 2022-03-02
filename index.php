@@ -1,5 +1,7 @@
 <!doctype html>
 <html lang="en">
+<!--PAGE TITLE-->
+<?php $pageTitle= 'Black Space'?>
 <?php include 'include/header.php'; ?>
 <body>
 <div class="img-fluid background"></div>

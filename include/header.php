@@ -10,6 +10,13 @@
     <link rel="icon" type="image/png" sizes="32x32" href="fav/favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="fav/favicon_io/favicon-16x16.png">
     <link rel="manifest" href="fav/favicon_io/site.webmanifest">
-    <title>Black Resume</title>
+    <title>
+        <?php if (isset($pageTitle)) {
+            echo $pageTitle;
+        } else {
+            echo "My Business Name";
+        } ?>
+    </title>
+
     <?php include 'style/style.php' ?>
 </head>

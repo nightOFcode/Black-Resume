@@ -26,7 +26,7 @@
                    title="Contact Page">< Contact ></a>
             </div>
             <div class="nav-item mx-2 text-center">
-                <a href="#" class="nav-link text-light nav-hover" data-bs-toggle="tooltip"
+                <a href="works.php" class="nav-link text-light nav-hover" data-bs-toggle="tooltip"
                    data-popper-placement="bottom"
                    title="Works Page">< Works ></a>
             </div>

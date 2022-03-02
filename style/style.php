@@ -90,6 +90,15 @@
         text-align: right;
     }
 
+    /*work background*/
+    #background-work {
+        background-image: url("image/work-pic-ConvertImage.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
     /*index page main background*/
 
     .body {
