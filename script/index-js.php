@@ -11,13 +11,18 @@
             var div2_bottom = div2_top + div2.height();
 
             if (div1_bottom >= div2_top && div1_top < div2_bottom) {
-                $(navbar).addClass('color-background');
-                $(navbar).addClass('rounded-3');
+                if ($('#offcanvas').hasClass('dark-mode')) {
+                    $(navbar).addClass('dark-mode');
+                    $(navbar).addClass('rounded-3');
+                } else {
+                    $(navbar).addClass('light-mode');
+                    $(navbar).addClass('rounded-3');
+                }
             } else {
-                $(navbar).removeClass('color-background');
+                $(navbar).removeClass('dark-mode');
+                $(navbar).removeClass('light-mode');
                 $(navbar).removeClass('rounded-3');
             }
-
         }));
 
 </script>

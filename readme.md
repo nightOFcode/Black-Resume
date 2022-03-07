@@ -1,11 +1,9 @@
 # Black-Resume
-example site for the blackspace team
 
-the site have 
-folder for server side and the contact page, 
-beacuse of sensetive data i cant send it on 
+example site for the BlackSpace Team
 
-after full production i release the safe version of 
-mentioned files.
+the site have folder for server side and the contact page, because of sensitive data I can't send it on
+
+after Full Production I release the safe version of mentioned files.
 
 

@@ -1,5 +1,4 @@
 <style>
-    /*body work*/
 
     * {
         margin: 0;
@@ -8,13 +7,13 @@
         box-sizing: border-box;
     }
 
-    /*ID selectors*/
+    body {
 
-    #offcanvas {
-        background: #0e0f13;
     }
 
-    /*navbar toggler index page */
+    #offcanvasLabel {
+        font-size: 20px;
+    }
 
     #navbar-toggler {
         padding: 10px;
@@ -24,6 +23,10 @@
 
     #navbar-toggler:hover {
         color: black;
+    }
+
+    #navbar-input {
+        padding: 5px !important;
     }
 
     #dropdownMenuButton {
@@ -36,28 +39,7 @@
         color: black;
     }
 
-    /*index page background fixer*/
-
-    #background {
-        background-image: url("image/background.jpg");
-        background-attachment: fixed;
-        background-position: center;
-        background-size: cover;
-        /*width: 100%;*/
-    }
-
-    /*contact page background*/
-    #background-contact {
-        background-image: url("image/contact-pic.png");
-        background-attachment: fixed;
-        background-position: center;
-        background-size: cover;
-        height: 100vh;
-        overflow: hidden;
-    }
-
-    /*alert*/
-
+    /*ALERT*/
     #index-alert {
         text-align: center;
         position: absolute;
@@ -70,63 +52,96 @@
         padding: 10px;
         border-radius: 5px;
         color: white;
-
     }
-
-    /*content in index*/
 
     #content {
         overflow: hidden;
+        font-size: 20px;
+        color: white;
     }
 
     #contact-margin {
         margin-top: 100px !important;
         border-radius: 5px;
-        width: 60%;
     }
 
-    /*button contact*/
-    #btn-contact {
+    #btn-contact-holder {
         text-align: right;
     }
 
-    /*work background*/
-    #background-work {
-        background-image: url("image/work-pic-ConvertImage.jpg");
-        background-size: cover;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-position: center;
+    #btn-contact {
+        border-radius: 3px !important;
     }
 
-    /*index page main background*/
+    #offcanvas-btn {
+        padding: 10px !important;
+        border-radius: 3px!important;
+    }
+
+    #offcanvas-btn:hover {
+        color: black!important;
+    }
+
+    /*INDEX DIVIDER*/
+    #divider {
+        height: 100vh;
+    }
+
+    /*INDEX DIVIDER TEXT HOLDER*/
+    #divider-holder {
+        display: flex;
+        height: 85vh;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #typing-animation {
+        padding: 20px;
+        border-radius: 50px;
+        font-size: 40px;
+    }
+
+    #typing-animation-2 {
+        padding: 20px;
+        border-radius: 20px;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    #navbar-brand {
+        display: none;
+    }
+
+    #toggle-switch {
+        font-size: 20px;
+    }
 
     .body {
         background: #182026;
     }
 
-    .background {
-        background-image: url("image/background.jpg");
+    /*VIDEO BACKGROUND*/
+    .video-background {
+        object-fit: cover;
+        width: 100vw;
         height: 100vh;
-        background-attachment: fixed;
-        /*background-attachment: revert;*/
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -100;
     }
 
-    /*bootstrap btn color and hover*/
-
     .btn {
-        padding: 5px;
+        padding: 5px !important;
         transition: 200ms;
         background: transparent;
-        color: white !important;
+        color: white;
+        border-radius: 0 !important;
     }
 
     .btn:hover {
-        color: black !important;
+        color: black;
         background: #a0a0a0;
     }
 
@@ -139,30 +154,29 @@
     .info-button {
         background: #0e0f13;
         transition: 200ms;
-        color: white !important;
+        color: white;
+        border-radius: 2px !important;
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
     }
 
     .info-button:hover {
         background: #a0a0a0;
-        color: black !important;
-    }
-
-    /*navbar item hover*/
-
-    .nav-item {
-        font-size: 20px;
-        transition: 200ms;
+        color: black;
     }
 
     .nav-hover {
+        font-size: 20px;
         transition: 200ms;
+        padding: 5px !important;
+        color: white;
     }
 
     .nav-hover:hover {
-        color: #a0a0a0 !important;
+        color: black;
+        background: #a0a0a0;
     }
-
-    /*navbar search input*/
 
     .form-control-sm {
         border: none;
@@ -175,8 +189,7 @@
         outline: none;
     }
 
-    /*contact form*/
-
+    /*CONTACT FORM*/
     .form {
         display: block;
         padding: 7px;
@@ -191,7 +204,6 @@
         background: #0e0f13;
     }
 
-    /*textarea contact*/
     .textarea {
         display: block;
         padding: 10px;
@@ -205,19 +217,6 @@
         color: white;
         background: #0e0f13;
     }
-
-    /*20px font*/
-
-    .font-20 {
-        font-size: 20px;
-        transition: 200ms;
-    }
-
-    .font-20:hover {
-        color: #a0a0a0;
-    }
-
-    /*sidebar item (offcanvas)*/
 
     .item-sidebar {
         padding: 10px;
@@ -239,11 +238,12 @@
         cursor: pointer;
         padding: 10px;
         border-radius: 5px;
+        color: white;
     }
 
     .holder-sidebar:hover {
         background: #a0a0a0;
-        color: black;
+        color: black !important;
     }
 
     .list-sidebar {
@@ -263,29 +263,32 @@
         color: #a0a0a0;
     }
 
-    /*disabled link in the sidebar*/
-
     .disabled {
         cursor: default;
+        color: white;
     }
 
     .disabled:hover {
         background: black;
+        color: #a0a0a0!important;
     }
 
     /*navbar transition*/
 
     .navbar {
         transition: 300ms;
+        font-size: 15px !important;
     }
 
-    /*divs and elements special background color*/
-
-    .color-background {
-        background: #182026;
+    .light-mode {
+        background: white;
+        color: black;
     }
 
-    /*footer change*/
+    .dark-mode {
+        background: #121419;
+        color: white;
+    }
 
     .footer-text {
         font-size: 20px !important;
@@ -296,62 +299,98 @@
         transition: 200ms;
     }
 
-    /*footer link change*/
-
     .footer-link:hover {
         color: #a0a0a0;
     }
 
-    /*media size responding*/
-
+    /*MEDIA RESPONDING*/
     @media (max-width: 1199px) {
-        #contact-margin {
-            width: 70%;
-        }
-
         #navbar {
-            background-image: url("image/background.jpg");
+            background: #121419;
         }
 
         #search-from {
             padding: 10px 10px;
         }
+
+        #navbar-brand {
+            display: block;
+        }
     }
 
     @media (max-width: 900px) {
         #index-alert div {
-            background: #a0a0a0;
             width: 50%;
         }
 
         #contact-margin {
             width: 100%;
         }
+
+        #typing-animation {
+            font-size: 16px;
+        }
+
+        #typing-animation-2 {
+            font-size: 12px;
+        }
     }
 
     @media (max-width: 600px) {
-        /*index content respond*/
         #content {
             font-size: 16px !important;
-        }
-
-        /*footer text respond*/
-        .footer-text {
-            font-size: 17px !important;
         }
 
         #btn-contact {
             text-align: center;
         }
+
+        .footer-text {
+            font-size: 17px !important;
+        }
+
+        .info-info-holder {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .info-button {
+            position: static;
+        }
+
     }
 
     @media (max-height: 740px) {
-        #background-contact {
-            overflow: scroll;
+        #divider-contact {
+            height: 50px;
+        }
+
+        #footer-contact {
+            position: relative !important;
+            bottom: 0;
+        }
+
+        #contact-margin {
+            margin-top: 70px !important;
         }
     }
 
+
     /*animations*/
+    #contact-animation {
+        animation: 2s fade 1s forwards;
+        animation-name: fadein;
+        opacity: 0;
+    }
+
+    @keyframes fadein {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
 
     .reveal {
         position: relative;
@@ -373,7 +412,6 @@
     .active.fade-right {
         animation: fade-right 500ms ease-in-out 200ms;
     }
-
 
     @keyframes fade-left {
         0% {
