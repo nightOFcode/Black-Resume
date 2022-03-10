@@ -14,7 +14,7 @@
     <!--VIDEO BACKGROUND-->
     <div class="img-fluid">
         <video playsinline autoplay muted loop class="video-background">
-            <source src="image-video/background.mp4" type="video/mp4">
+            <source src="other/image-video/background.mp4" type="video/mp4">
         </video>
     </div>
     <!--divider-->
@@ -40,7 +40,7 @@
         <div class="reveal fade-right container py-4">
             <div class="rounded-3 row dark-mode position-relative">
                 <div class="col-xxl-6 p-2">
-                    <img src="image-video/1.jpg" class="w-100 rounded-3" alt="">
+                    <img src="other/image-video/1.jpg" class="w-100 rounded-3" alt="">
                 </div>
                 <div class="col-xxl-6 p-4 p-md-4 text-capitalize">
                     <b>
@@ -66,7 +66,7 @@
         <div class="reveal fade-left container py-4">
             <div class="rounded-3 row dark-mode position-relative">
                 <div class="col-xxl-6 p-2">
-                    <img src="image-video/2.jpg" class="w-100 rounded-3" alt="">
+                    <img src="other/image-video/2.jpg" class="w-100 rounded-3" alt="">
                 </div>
                 <div class="col-xxl-6 p-4 p-md-4 text-capitalize">
                     <b>

@@ -1,13 +1,13 @@
 <!doctype html>
 <html lang="en">
 <!--PAGE TITLE-->
-<?php $pageTitle = "<div class='text-light'>" . 'WORKS' . "</div>" ?>
+<?php $pageTitle = '<div class="text-light">'. 'WORKS'. '</div>' ?>
 <?php include 'include/header.php' ?>
 <body id="background-work">
 <!--BACKGROUND VIDEO-->
 <div class="img-fluid">
     <video playsinline autoplay muted loop class="video-background">
-        <source src="image-video/background.mp4" type="video/mp4">
+        <source src="other/image-video/background.mp4" type="video/mp4">
     </video>
 </div>
 <div class="container-fluid">
@@ -20,7 +20,7 @@
     <div class="container" id="work-holder">
         <div class="rounded-3 position-relative row dark-mode" id="work">
             <div class="col-xxl-12 p-2">
-                <img src="image-video/work.png" class="w-100 rounded-3" alt="">
+                <img src="other/image-video/work.png" class="w-100 rounded-3" alt="">
             </div>
             <div class="col-xxl-12 p-4 text-capitalize">
                 <b>
@@ -38,7 +38,7 @@
         <div class="reveal fade-right">
             <div class="rounded-3 position-relative row dark-mode mt-5" id="work">
                 <div class="col-xl-6 p-2">
-                    <img src="image-video/golden-php.jpg" class="w-100 rounded-3" alt="">
+                    <img src="other/image-video/golden-php.jpg" class="w-100 rounded-3" alt="">
                 </div>
                 <div class="col-xl-6 p-4 text-capitalize">
                     <b>
@@ -70,7 +70,7 @@
         <div class="reveal fade-left">
             <div class="rounded-3 position-relative row dark-mode mt-5" id="work">
                 <div class="col-xl-6 p-2">
-                    <img src="image-video/black-space.jpg" class="w-100 rounded-3" alt="">
+                    <img src="other/image-video/black-space.jpg" class="w-100 rounded-3" alt="">
                 </div>
                 <div class="col-xl-6 p-4 text-capitalize">
                     <b>
