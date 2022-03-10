@@ -10,7 +10,7 @@
         <!--offcanvas button-->
         <button type="button" class="btn text-reset" id="offcanvas-btn" data-bs-dismiss="offcanvas"
                 aria-label="Close">
-            <i class="bi bi-caret-left"></i>
+            <b class="bi bi-caret-left"></b>
         </button>
     </div>
     <!--offcanvas body-->

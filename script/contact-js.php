@@ -25,6 +25,6 @@
                 $(navbar).removeClass('light-mode');
                 $(navbar).removeClass('rounded-3');
             }
-
-        }));
+        })
+    );
 </script>

@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <!--PAGE TITLE-->
-<?php $pageTitle = 'Black Space' ?>
+<?php $pageTitle = "<div class='text-light'>" . 'BLACK SPACE' . "</div>" ?>
 <?php include 'include/header.php'; ?>
 <body>
 <div class="container-fluid">
@@ -23,7 +23,8 @@
             <div class="animate-typing dark-mode" id="typing-animation" data-type-speed="150">
                 ♻ WELCOME TO BLACK RESUME ♻
             </div>
-            <div class="animate-typing dark-mode" id="typing-animation-2" data-type-delay="2000" data-remove-delay="3000"
+            <div class="animate-typing dark-mode" id="typing-animation-2" data-type-delay="2000"
+                 data-remove-delay="3000"
                  data-animate-loop="true" data-type-speed="150" data-remove-speed="150">
                 <!--APART STENTS WITH "|"-->
                 ✔ NEED A GOOD RESUME SITE ? |
@@ -34,14 +35,14 @@
         </div>
     </div>
     <!--content-->
-    <div id="content" class="p-2 p-sm-4 font-20">
+    <div id="content" class="p-2 p-sm-4">
         <!--content 1-->
         <div class="reveal fade-right container py-4">
             <div class="rounded-3 row dark-mode position-relative">
-                <div class="col-xxl-6 border-5 p-2">
+                <div class="col-xxl-6 p-2">
                     <img src="image-video/1.jpg" class="w-100 rounded-3" alt="">
                 </div>
-                <div class="col-xxl-6 border-5 p-4 p-md-4 text-capitalize">
+                <div class="col-xxl-6 p-4 p-md-4 text-capitalize">
                     <b>
                         ♻ BLACK RESUME ♻
                     </b>
@@ -64,10 +65,10 @@
         <!--content2-->
         <div class="reveal fade-left container py-4">
             <div class="rounded-3 row dark-mode position-relative">
-                <div class="col-xxl-6 border-5 p-2">
+                <div class="col-xxl-6 p-2">
                     <img src="image-video/2.jpg" class="w-100 rounded-3" alt="">
                 </div>
-                <div class="col-xxl-6 border-5 p-4 p-md-4 text-capitalize">
+                <div class="col-xxl-6 p-4 p-md-4 text-capitalize">
                     <b>
                         ♻ CONTACT US ♻
                     </b>
@@ -82,10 +83,12 @@
                     ✔ I will be happy to improve it
                     <br>
                     ✔ contact me
-                    <div class="info-info-holder">
-                        <button class="btn info-button" href="">
-                            Contact
-                        </button>
+                    <div class="info-holder">
+                        <a href="contact.php">
+                            <button class="btn info-button">
+                                Contact
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>

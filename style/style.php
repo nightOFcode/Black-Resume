@@ -8,7 +8,7 @@
     }
 
     body {
-
+        font-family: 'Patua One', cursive;
     }
 
     #offcanvasLabel {
@@ -39,21 +39,6 @@
         color: black;
     }
 
-    /*ALERT*/
-    #index-alert {
-        text-align: center;
-        position: absolute;
-        top: 100px;
-    }
-
-    #index-alert div {
-        background: #182026;
-        width: 25%;
-        padding: 10px;
-        border-radius: 5px;
-        color: white;
-    }
-
     #content {
         overflow: hidden;
         font-size: 20px;
@@ -75,19 +60,17 @@
 
     #offcanvas-btn {
         padding: 10px !important;
-        border-radius: 3px!important;
+        border-radius: 3px !important;
     }
 
     #offcanvas-btn:hover {
-        color: black!important;
+        color: black !important;
     }
 
-    /*INDEX DIVIDER*/
     #divider {
         height: 100vh;
     }
 
-    /*INDEX DIVIDER TEXT HOLDER*/
     #divider-holder {
         display: flex;
         height: 85vh;
@@ -115,6 +98,12 @@
 
     #toggle-switch {
         font-size: 20px;
+    }
+
+    #work-holder {
+        margin-top: 100px;
+        font-size: 20px;
+        overflow-x: hidden;
     }
 
     .body {
@@ -166,6 +155,10 @@
         color: black;
     }
 
+    .contact-btn {
+        background: #0e0f13;
+    }
+
     .nav-hover {
         font-size: 20px;
         transition: 200ms;
@@ -189,7 +182,6 @@
         outline: none;
     }
 
-    /*CONTACT FORM*/
     .form {
         display: block;
         padding: 7px;
@@ -270,7 +262,7 @@
 
     .disabled:hover {
         background: black;
-        color: #a0a0a0!important;
+        color: #a0a0a0 !important;
     }
 
     /*navbar transition*/
@@ -278,11 +270,6 @@
     .navbar {
         transition: 300ms;
         font-size: 15px !important;
-    }
-
-    .light-mode {
-        background: white;
-        color: black;
     }
 
     .dark-mode {
@@ -309,12 +296,12 @@
             background: #121419;
         }
 
-        #search-from {
-            padding: 10px 10px;
-        }
-
         #navbar-brand {
             display: block;
+        }
+
+        #search-from {
+            padding: 10px 10px;
         }
     }
 
@@ -341,6 +328,10 @@
             font-size: 16px !important;
         }
 
+        #work-holder {
+            font-size: 16px;
+        }
+
         #btn-contact {
             text-align: center;
         }
@@ -349,7 +340,7 @@
             font-size: 17px !important;
         }
 
-        .info-info-holder {
+        .info-holder {
             text-align: center;
             margin-top: 10px;
         }
@@ -385,9 +376,11 @@
 
     @keyframes fadein {
         0% {
+            /*transform: translatey(-100%);*/
             opacity: 0;
         }
         100% {
+            /*transform: translatey(0);*/
             opacity: 1;
         }
     }
