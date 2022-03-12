@@ -1,5 +1,5 @@
 <nav class="offcanvas offcanvas-start theme" id="offcanvas" tabindex="2" data-bs-scroll="true" data-bs-backdrop="false">
-    <!--offcanvas header-->
+    <!--OFFCANVAS HEADER-->
     <div class="offcanvas-header">
         <header class="offcanvas-title" id="offcanvasLabel">
             <a href="index.php" data-bs-target="tooltip"
@@ -7,15 +7,15 @@
                 <b>Black Resume</b>
             </a>
         </header>
-        <!--offcanvas button-->
+        <!--OFFCANVAS BUTTON-->
         <button type="button" class="hover btn text-reset" id="offcanvas-btn" data-bs-dismiss="offcanvas"
                 aria-label="Close">
             <b class="bi bi-caret-left"></b>
         </button>
     </div>
-    <!--offcanvas body-->
+    <!--OFFCANVAS BODY-->
     <div class="offcanvas-body">
-        <!--offcanvas resume-->
+        <!--OFFCANVAS RESUME-->
         <div class="container">
             <div class="hover holder-sidebar my-2" id="resume-holder">
                 Resume &blacktriangledown;
@@ -25,7 +25,7 @@
                 <a href="" class="hover my-2 item-sidebar">Team resume</a>
             </div>
         </div>
-        <!--offcanvas network-->
+        <!--OFFCANVAS NETWORK-->
         <div class="container">
             <div class="hover holder-sidebar my-2" id="network-holder">
                 Network &blacktriangledown;
@@ -37,7 +37,7 @@
                 <a href="https://github.com/nightOFcode" class="hover my-2 item-sidebar">My Github</a>
             </div>
         </div>
-        <!--disabled links-->
+        <!--DISABLED LINKS-->
         <div class="container">
             <div class="holder-sidebar my-2 disabled">
                 Disabled

@@ -16,9 +16,10 @@
     <!--OFFCANVAS-->
     <?php include "include/offcanvas.php"; ?>
 </div>
+<!--CONTENT-->
 <div class="p-2 p-sm-4">
     <div class="container" id="work-holder">
-        <div class="work-animation rounded-3 position-relative row theme" id="work">
+        <div class="fade-animation rounded-3 position-relative row theme" id="work">
             <div class="col-xxl-12 p-2">
                 <img src="other/image-video/work.png" class="w-100 rounded-3" alt="">
             </div>
@@ -33,6 +34,8 @@
                 ✔ this is my first site hosted so ,
                 <br>
                 ✔ I don't have too many projects done
+                <br>
+                ✔ there will be more soon
             </div>
         </div>
         <div class="reveal fade-right">

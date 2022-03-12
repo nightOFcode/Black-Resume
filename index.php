@@ -5,9 +5,9 @@
 <?php include 'include/header.php'; ?>
 <body>
 <div class="container-fluid">
-    <!--navbar-->
+    <!--NAVBAR-->
     <?php include "include/navbar.php"; ?>
-    <!--offcanvas "sidebar"-->
+    <!--OFFCANVAS "SIDEBAR"-->
     <?php include "include/offcanvas.php"; ?>
 </div>
 <div>
@@ -35,9 +35,9 @@
             </div>
         </div>
     </div>
-    <!--content-->
+    <!--CONTENT-->
     <div id="content" class="p-2 p-sm-4">
-        <!--content 1-->
+        <!--CONTENT 1-->
         <div class="reveal fade-right container py-4">
             <div class="rounded-3 row theme position-relative">
                 <div class="col-xxl-6 p-2">
@@ -63,10 +63,10 @@
                 </div>
             </div>
         </div>
-        <!--content2-->
+        <!--CONTENT 2-->
         <div class="reveal fade-left container py-4">
             <div class="rounded-3 row theme position-relative">
-                <div class="col-xxl-6 p-2" >
+                <div class="col-xxl-6 p-2">
                     <img src="other/image-video/2.jpg" class="w-100 rounded-3" alt="">
                 </div>
                 <div class="col-xxl-6 p-4 p-md-4 text-capitalize">
@@ -95,10 +95,10 @@
             </div>
         </div>
     </div>
-    <!--footer-->
+    <!--FOOTER-->
     <?php include "include/footer.php"; ?>
 </div>
-<!--scripts-->
+<!--SCRIPTS-->
 <?php include 'include/script-holder.php' ?>
 <?php include "script/index-js.php"; ?>
 <!--ADDING ANIMATE TYPING-->

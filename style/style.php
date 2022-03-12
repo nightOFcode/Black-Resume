@@ -15,6 +15,10 @@
         font-size: 20px;
     }
 
+    #offcanvas-btn {
+        padding-top: 2px !important;
+    }
+
     #content {
         overflow: hidden;
         font-size: 20px;
@@ -97,8 +101,8 @@
     }
 
     .hover:hover {
-        color: white !important;
-        background: #292e3a;
+        color: black !important;
+        background: lightskyblue;
     }
 
     .focus:focus {
@@ -287,7 +291,6 @@
         #typing-animation-2 {
             font-size: 12px;
         }
-
     }
 
     @media (max-height: 740px) {
@@ -303,18 +306,11 @@
         #contact-margin {
             margin-top: 70px !important;
         }
-
     }
 
 
     /*ANIMATIONS*/
-    .work-animation {
-        animation: 2s fade 1s forwards;
-        animation-name: fadein;
-        opacity: 0;
-    }
-
-    .contact-animation {
+    .fade-animation {
         animation: 2s fade 1s forwards;
         animation-name: fadein;
         opacity: 0;

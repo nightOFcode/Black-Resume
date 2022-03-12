@@ -21,5 +21,4 @@
         ?>
     </title>
     <?php include 'style/style.php'; ?>
-    <?php include "style/theme.php"; ?>
 </head>

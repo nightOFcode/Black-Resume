@@ -1,14 +1,14 @@
-<!--footer div holder-->
+<!--FOOTER DIV HOLDER-->
 <div class="container color-background rounded-top theme">
-    <!--footer-->
+    <!--FOOTER-->
     <footer class="p-4 d-flex justify-content-between">
-        <!--copy licence-->
+        <!--LICENCE-->
         <div class="d-flex">
             <div class="text-light footer-text">
                 &copy; Black Resume, Inc 2022
             </div>
         </div>
-        <!--network links icons-->
+        <!--NETWORK ICON LINKS-->
         <div class="d-flex">
             <a href="#" class="pe-md-3 pe-2 footer-text footer-link" data-bs-toggle="tooltip" data-bs-placement="top" title="My Github">
                 <i class="bi bi-github"></i>

@@ -1,8 +1,8 @@
 <nav class="navbar navbar-expand-xl fixed-top mb-2 pb-0 pt-0 rounded-bottom">
     <!--offcanvas button-->
-    <button class="hover btn ms-1 p-1" type="button" data-bs-toggle="offcanvas"
+    <button class="hover btn ms-1" id="offcanvas-btn" type="button" data-bs-toggle="offcanvas"
             data-bs-target="#offcanvas" data-bs-placement="bottom" title="Sidebar">
-        <b><<<</b>
+        <<<
     </button>
     <!--navbar brand-->
     <div class="navbar-brand ms-3" id="navbar-brand">
