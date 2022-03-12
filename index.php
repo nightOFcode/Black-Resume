@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <!--PAGE TITLE-->
-<?php $pageTitle = "<div class='text-light'>" . 'BLACK SPACE' . "</div>" ?>
+<?php $pageTitle = 'BLACK SPACE'; ?>
 <?php include 'include/header.php'; ?>
 <body>
 <div class="container-fluid">
@@ -17,13 +17,14 @@
             <source src="other/image-video/background.mp4" type="video/mp4">
         </video>
     </div>
-    <!--divider-->
-    <div id="divider">
+    <!--DIVIDER-->
+    <div id="divider"></div>
+    <div id="divider-2">
         <div id="divider-holder">
-            <div class="animate-typing dark-mode" id="typing-animation" data-type-speed="150">
+            <div class="animate-typing theme" id="typing-animation" data-type-speed="150">
                 ♻ WELCOME TO BLACK RESUME ♻
             </div>
-            <div class="animate-typing dark-mode" id="typing-animation-2" data-type-delay="2000"
+            <div class="animate-typing theme" id="typing-animation-2" data-type-delay="2000"
                  data-remove-delay="3000"
                  data-animate-loop="true" data-type-speed="150" data-remove-speed="150">
                 <!--APART STENTS WITH "|"-->
@@ -38,7 +39,7 @@
     <div id="content" class="p-2 p-sm-4">
         <!--content 1-->
         <div class="reveal fade-right container py-4">
-            <div class="rounded-3 row dark-mode position-relative">
+            <div class="rounded-3 row theme position-relative">
                 <div class="col-xxl-6 p-2">
                     <img src="other/image-video/1.jpg" class="w-100 rounded-3" alt="">
                 </div>
@@ -64,8 +65,8 @@
         </div>
         <!--content2-->
         <div class="reveal fade-left container py-4">
-            <div class="rounded-3 row dark-mode position-relative">
-                <div class="col-xxl-6 p-2">
+            <div class="rounded-3 row theme position-relative">
+                <div class="col-xxl-6 p-2" >
                     <img src="other/image-video/2.jpg" class="w-100 rounded-3" alt="">
                 </div>
                 <div class="col-xxl-6 p-4 p-md-4 text-capitalize">
@@ -85,7 +86,7 @@
                     ✔ contact me
                     <div class="info-holder">
                         <a href="contact.php">
-                            <button class="btn info-button">
+                            <button class="hover btn content-btn">
                                 Contact
                             </button>
                         </a>

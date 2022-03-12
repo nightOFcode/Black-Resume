@@ -15,34 +15,9 @@
         font-size: 20px;
     }
 
-    #navbar-toggler {
-        padding: 10px;
-        color: white;
-        border: none;
-    }
-
-    #navbar-toggler:hover {
-        color: black;
-    }
-
-    #navbar-input {
-        padding: 5px !important;
-    }
-
-    #dropdownMenuButton {
-        font-size: 20px;
-    }
-
-    #dropdownMenuButton:hover {
-        transition: 200ms;
-        background: #a0a0a0;
-        color: black;
-    }
-
     #content {
         overflow: hidden;
         font-size: 20px;
-        color: white;
     }
 
     #contact-margin {
@@ -58,22 +33,17 @@
         border-radius: 3px !important;
     }
 
-    #offcanvas-btn {
-        padding: 10px !important;
-        border-radius: 3px !important;
-    }
-
-    #offcanvas-btn:hover {
-        color: black !important;
-    }
-
     #divider {
+        height: 100px;
+    }
+
+    #divider-2 {
         height: 100vh;
     }
 
     #divider-holder {
         display: flex;
-        height: 85vh;
+        height: 65vh;
         align-items: center;
         justify-content: center;
         flex-direction: column;
@@ -94,6 +64,7 @@
 
     #navbar-brand {
         display: none;
+        color: white;
     }
 
     #toggle-switch {
@@ -104,10 +75,6 @@
         margin-top: 100px;
         font-size: 20px;
         overflow-x: hidden;
-    }
-
-    .body {
-        background: #182026;
     }
 
     /*VIDEO BACKGROUND*/
@@ -121,6 +88,24 @@
         z-index: -100;
     }
 
+    .theme {
+        backdrop-filter: blur(16px) saturate(180%);
+        -webkit-backdrop-filter: blur(16px) saturate(180%);
+        background-color: rgba(12, 17, 27, 0.75);
+        border: 1px solid rgba(255, 255, 255, 0.125);
+        color: white;
+    }
+
+    .hover:hover {
+        color: white !important;
+        background: #292e3a;
+    }
+
+    .focus:focus {
+        color: white;
+        background: #292e3a;
+    }
+
     .btn {
         padding: 5px !important;
         transition: 200ms;
@@ -129,19 +114,14 @@
         border-radius: 0 !important;
     }
 
-    .btn:hover {
-        color: black;
-        background: #a0a0a0;
-    }
-
     .btn:focus {
         outline: none !important;
         box-shadow: none !important;
         border: none;
     }
 
-    .info-button {
-        background: #0e0f13;
+    .content-btn {
+        background: black;
         transition: 200ms;
         color: white;
         border-radius: 2px !important;
@@ -150,36 +130,15 @@
         right: 20px;
     }
 
-    .info-button:hover {
-        background: #a0a0a0;
-        color: black;
-    }
-
     .contact-btn {
-        background: #0e0f13;
+        background: black;
     }
 
-    .nav-hover {
+    .navbar-item {
         font-size: 20px;
         transition: 200ms;
         padding: 5px !important;
         color: white;
-    }
-
-    .nav-hover:hover {
-        color: black;
-        background: #a0a0a0;
-    }
-
-    .form-control-sm {
-        border: none;
-        transition: 200ms;
-    }
-
-    .form-control-sm:focus {
-        background: #0e0f13;
-        color: white;
-        outline: none;
     }
 
     .form {
@@ -191,11 +150,6 @@
         width: 100%;
     }
 
-    .form:focus {
-        color: white;
-        background: #0e0f13;
-    }
-
     .textarea {
         display: block;
         padding: 10px;
@@ -203,11 +157,6 @@
         height: 100px;
         border: none;
         transition: 200ms;
-    }
-
-    .textarea:focus {
-        color: white;
-        background: #0e0f13;
     }
 
     .item-sidebar {
@@ -219,11 +168,6 @@
         border-radius: 5px;
     }
 
-    .item-sidebar:hover {
-        background: #a0a0a0;
-        color: black;
-    }
-
     .holder-sidebar {
         transition: 200ms;
         font-size: 20px;
@@ -231,11 +175,6 @@
         padding: 10px;
         border-radius: 5px;
         color: white;
-    }
-
-    .holder-sidebar:hover {
-        background: #a0a0a0;
-        color: black !important;
     }
 
     .list-sidebar {
@@ -246,12 +185,13 @@
         font-size: 20px;
     }
 
-    .offcanvas-brand {
+    .offcanvas-title a {
         color: white;
         transition: 200ms;
+        text-decoration: none;
     }
 
-    .offcanvas-brand:hover {
+    .offcanvas-title:hover a {
         color: #a0a0a0;
     }
 
@@ -272,11 +212,6 @@
         font-size: 15px !important;
     }
 
-    .dark-mode {
-        background: #121419;
-        color: white;
-    }
-
     .footer-text {
         font-size: 20px !important;
     }
@@ -293,33 +228,29 @@
     /*MEDIA RESPONDING*/
     @media (max-width: 1199px) {
         #navbar {
-            background: #121419;
+            backdrop-filter: blur(25px) saturate(200%);
+            -webkit-backdrop-filter: blur(25px) saturate(200%);
+            background-color: rgba(21, 21, 33, 0.8);
+            /*border: 1px solid rgba(255, 255, 255, 0.125);*/
+            color: white;
         }
 
         #navbar-brand {
             display: block;
         }
-
-        #search-from {
-            padding: 10px 10px;
-        }
     }
 
     @media (max-width: 900px) {
-        #index-alert div {
-            width: 50%;
-        }
-
         #contact-margin {
             width: 100%;
         }
 
         #typing-animation {
-            font-size: 16px;
+            font-size: 24px;
         }
 
         #typing-animation-2 {
-            font-size: 12px;
+            font-size: 18px;
         }
     }
 
@@ -349,6 +280,14 @@
             position: static;
         }
 
+        #typing-animation {
+            font-size: 16px;
+        }
+
+        #typing-animation-2 {
+            font-size: 12px;
+        }
+
     }
 
     @media (max-height: 740px) {
@@ -364,25 +303,21 @@
         #contact-margin {
             margin-top: 70px !important;
         }
+
     }
 
 
-    /*animations*/
-    #contact-animation {
+    /*ANIMATIONS*/
+    .work-animation {
         animation: 2s fade 1s forwards;
         animation-name: fadein;
         opacity: 0;
     }
 
-    @keyframes fadein {
-        0% {
-            /*transform: translatey(-100%);*/
-            opacity: 0;
-        }
-        100% {
-            /*transform: translatey(0);*/
-            opacity: 1;
-        }
+    .contact-animation {
+        animation: 2s fade 1s forwards;
+        animation-name: fadein;
+        opacity: 0;
     }
 
     .reveal {
@@ -397,13 +332,21 @@
         opacity: 1;
     }
 
-
     .active.fade-left {
         animation: fade-left 500ms ease-in-out 200ms;
     }
 
     .active.fade-right {
         animation: fade-right 500ms ease-in-out 200ms;
+    }
+
+    @keyframes fadein {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
     }
 
     @keyframes fade-left {
@@ -427,5 +370,4 @@
             opacity: 1;
         }
     }
-
 </style>

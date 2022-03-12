@@ -1,5 +1,5 @@
 <!--footer div holder-->
-<div class="container color-background rounded-top dark-mode">
+<div class="container color-background rounded-top theme">
     <!--footer-->
     <footer class="p-4 d-flex justify-content-between">
         <!--copy licence-->

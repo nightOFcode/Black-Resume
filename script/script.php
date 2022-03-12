@@ -4,8 +4,7 @@
         var visible = $('#offcanvas').is("visible");
         var resume_list = $("#resume-list");
 
-        /*resume offcanvas jq*/
-
+        /*RESUME OFFCANVAS*/
         $('#resume-holder').click(function () {
             if ($(resume_list).css("display") === "none") {
                 $(resume_list).slideToggle(500);
@@ -14,8 +13,7 @@
             }
         });
 
-        /*network offcanvas jq*/
-
+        /*NETWORK OFFCANVAS*/
         var network_list = $("#network-list");
 
         $('#network-holder').click(function () {
@@ -26,8 +24,7 @@
             }
         });
 
-        /*closed offcanvas trigger*/
-
+        /*CLOSED OFFCANVAS TRIGGER*/
         $("#offcanvas-btn").click(function () {
             if (visible === 'false') {
                 $(resume_list).show();
@@ -38,8 +35,7 @@
             }
         });
 
-        /*closed offcanvas trigger on key*/
-
+        /*CLOSED OFFCANVAS TRIGGER ON KEY*/
         $(document).on('keydown', function (event) {
             if (event.key === "Escape") {
                 if (visible === 'false') {
@@ -53,7 +49,7 @@
         });
     });
 
-    /*animation jq*/
+    /*ANIMATION REVEAL*/
 
     function reveal() {
         var reveals = document.querySelectorAll(".reveal");
@@ -72,25 +68,4 @@
     }
 
     window.addEventListener("scroll", reveal);
-
-    /*message alerting hider*/
-
-    var timeout;
-
-    $(document).ready(function () {
-        timeout = window.setTimeout(hideMessage, 2000)
-    });
-
-    function hideMessage() {
-        $('#index-alert').animate(
-            {opacity: 0}, 800
-            , function () {
-                $('#index-alert').css(
-                    {
-                        display: 'none'
-                    }
-                )
-            }
-        );
-    }
 </script>

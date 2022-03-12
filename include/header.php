@@ -15,10 +15,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
     <title>
         <?php if (isset($pageTitle)) {
-            echo (strip_tags($pageTitle));
+            echo(strip_tags($pageTitle));
         } else
             echo "Black Space"
         ?>
     </title>
-    <?php include 'style/style.php' ?>
+    <?php include 'style/style.php'; ?>
+    <?php include "style/theme.php"; ?>
 </head>
