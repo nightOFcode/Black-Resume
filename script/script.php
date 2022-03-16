@@ -68,4 +68,10 @@
     }
 
     window.addEventListener("scroll", reveal);
+
+    $(document).ready(function () {
+        $('.fade-animation').addClass('active-contact-animation');
+    });
+
+
 </script>

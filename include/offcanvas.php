@@ -31,10 +31,13 @@
                 Network &blacktriangledown;
             </div>
             <div class="container rounded-3 list-sidebar" id="network-list">
-                <a href="" class="hover my-2 item-sidebar">Team Discord</a>
-                <a href="https://github.com/BlackSpaceTeam" class="hover my-2 item-sidebar">Team Github</a>
-                <a href="https://discord.com/channels/6998" class="hover my-2 item-sidebar">My Discord</a>
-                <a href="https://github.com/nightOFcode" class="hover my-2 item-sidebar">My Github</a>
+                <a href="https://discord.com/channels/759457381552881704/931034643103383604" target="_blank"
+                   class="hover my-2 item-sidebar">Team Discord</a>
+                <a href="https://github.com/BlackSpaceTeam" target="_blank" class="hover my-2 item-sidebar">Team
+                    Github</a>
+                <a href="https://discord.com/channels/6998" target="_blank" class="hover my-2 item-sidebar">My
+                    Discord</a>
+                <a href="https://github.com/nightOFcode" target="_blank" class="hover my-2 item-sidebar">My Github</a>
             </div>
         </div>
         <!--DISABLED LINKS-->

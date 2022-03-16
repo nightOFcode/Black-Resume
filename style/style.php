@@ -81,6 +81,48 @@
         overflow-x: hidden;
     }
 
+    #myResume-holder {
+        margin-top: 60px !important;
+        text-align: center;
+        /*border-radius: 50% 50% 0 0;*/
+        border-radius: 3px;
+    }
+
+    #caption-1-img {
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        border: 1px solid rgba(255, 255, 255, 0.125);
+    }
+
+    #caption-1-caption-holder {
+        padding: 10px;
+        font-size: 40px;
+        text-align: center;
+        width: 100%;
+        display: block;
+    }
+
+    #caption-1-caption {
+        display: inline-block;
+        background: rgb(135, 206, 250);
+        background: -moz-linear-gradient(150deg, rgba(135, 206, 250, 1) 0%, rgba(4, 27, 91, 1) 100%);
+        background: -webkit-linear-gradient(150deg, rgba(135, 206, 250, 1) 0%, rgba(4, 27, 91, 1) 100%);
+        background: linear-gradient(150deg, rgba(135, 206, 250, 1) 0%, rgba(4, 27, 91, 1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#87cefa", endColorstr="#041b5b", GradientType=1);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    #resume-1 {
+        font-size: 20px;
+        text-align: start;
+    }
+
+    #caption-1 {
+        text-align: center;
+    }
+
     /*VIDEO BACKGROUND*/
     .video-background {
         object-fit: cover;
@@ -229,6 +271,11 @@
         color: #a0a0a0;
     }
 
+    .caption-3-btn {
+        border-radius: 2px !important;
+        background: black;
+    }
+
     /*MEDIA RESPONDING*/
     @media (max-width: 1199px) {
         #navbar {
@@ -255,6 +302,21 @@
 
         #typing-animation-2 {
             font-size: 18px;
+        }
+    }
+
+    @media (max-height: 740px) {
+        #divider-contact {
+            height: 50px;
+        }
+
+        #footer-contact {
+            position: relative !important;
+            bottom: 0;
+        }
+
+        #contact-margin {
+            margin-top: 70px !important;
         }
     }
 
@@ -293,29 +355,8 @@
         }
     }
 
-    @media (max-height: 740px) {
-        #divider-contact {
-            height: 50px;
-        }
-
-        #footer-contact {
-            position: relative !important;
-            bottom: 0;
-        }
-
-        #contact-margin {
-            margin-top: 70px !important;
-        }
-    }
-
 
     /*ANIMATIONS*/
-    .fade-animation {
-        animation: 2s fade 1s forwards;
-        animation-name: fadein;
-        opacity: 0;
-    }
-
     .reveal {
         position: relative;
         /*transform: translateY(150px);*/
@@ -334,6 +375,12 @@
 
     .active.fade-right {
         animation: fade-right 500ms ease-in-out 200ms;
+    }
+
+    .active-contact-animation {
+        animation: 2s fade 1s forwards;
+        animation-name: fadein;
+        opacity: 0;
     }
 
     @keyframes fadein {

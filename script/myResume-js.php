@@ -6,7 +6,7 @@
             /*upper div*/
             var div1 = $(navbar);
             /*the bottom div*/
-            var div2 = $("#contact-clean");
+            var div2 = $("#navbar-caption");
             var div1_top = div1.offset().top;
             var div2_top = div2.offset().top;
             var div1_bottom = div1_top + div1.height();
@@ -19,9 +19,7 @@
                 $(navbar).removeClass('theme');
                 $(navbar).removeClass('rounded-3');
             }
-
         })
-    )
-
-
+    );
 </script>
+

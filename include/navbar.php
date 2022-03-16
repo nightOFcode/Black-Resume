@@ -36,7 +36,10 @@
                    title="Works Page">Works</a>
             </div>
             <div class="nav-item mx-2 text-center">
-                <a href="#" class="nav-link navbar-item hover" data-bs-toggle="tooltip"
+                <a href="https://discord.com/channels/759457381552881704/931034643103383604"
+                   target="_blank"
+                   download=""
+                   class="nav-link navbar-item hover" data-bs-toggle="tooltip"
                    data-popper-placement="bottom"
                    title="Black Space site">Black Space</a>
             </div>
