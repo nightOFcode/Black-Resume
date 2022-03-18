@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "90bbf95869b4e88bf0dc5022e708a458",
+    "content-hash": "59b282628fff58015b65f3eeb80578a1",
     "packages": [
         {
             "name": "phpmailer/phpmailer",
@@ -83,6 +83,45 @@
                 }
             ],
             "time": "2022-02-17T08:19:04+00:00"
+        },
+        {
+            "name": "twbs/bootstrap-icons",
+            "version": "v1.8.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twbs/icons.git",
+                "reference": "190eb16e74404d27b1772f094ca7de7b37ca7415"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twbs/icons/zipball/190eb16e74404d27b1772f094ca7de7b37ca7415",
+                "reference": "190eb16e74404d27b1772f094ca7de7b37ca7415",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mark Otto",
+                    "email": "markdotto@gmail.com"
+                }
+            ],
+            "description": "Official open source SVG icon library for Bootstrap",
+            "homepage": "https://icons.getbootstrap.com/",
+            "keywords": [
+                "bootstrap",
+                "icon font",
+                "icons",
+                "svg"
+            ],
+            "support": {
+                "issues": "https://github.com/twbs/icons/issues",
+                "source": "https://github.com/twbs/icons/tree/v1.8.1"
+            },
+            "time": "2022-02-08T04:54:22+00:00"
         }
     ],
     "packages-dev": [],
@@ -91,7 +130,9 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "ext-json": "*"
+    },
     "platform-dev": [],
     "plugin-api-version": "2.2.0"
 }

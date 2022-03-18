@@ -1,46 +1,6 @@
 <script>
 
-    $(document).ready(function () {
-        var visible = $('#offcanvas').is("visible");
-
-        /*NETWORK OFFCANVAS*/
-        var network_list = $("#network-list");
-
-        $('#network-holder').click(function () {
-            if ($(network_list).css("display") === "none") {
-                $(network_list).slideToggle(500);
-            } else {
-                $(network_list).slideToggle(500);
-            }
-        });
-
-        /*CLOSED OFFCANVAS TRIGGER*/
-        $("#offcanvas-btn").click(function () {
-            if (visible === 'false') {
-                $(resume_list).show();
-                $(network_list).show();
-            } else {
-                $(resume_list).hide();
-                $(network_list).hide();
-            }
-        });
-
-        /*CLOSED OFFCANVAS TRIGGER ON KEY*/
-        $(document).on('keydown', function (event) {
-            if (event.key === "Escape") {
-                if (visible === 'false') {
-                    $(resume_list).show();
-                    $(network_list).show();
-                } else {
-                    $(resume_list).hide();
-                    $(network_list).hide();
-                }
-            }
-        });
-    });
-
     /*ANIMATION REVEAL*/
-
     function reveal() {
         var reveals = document.querySelectorAll(".reveal");
 
@@ -62,6 +22,5 @@
     $(document).ready(function () {
         $('.fade-animation').addClass('active-contact-animation');
     });
-
 
 </script>
