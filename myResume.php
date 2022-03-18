@@ -22,9 +22,9 @@
         <div class="rounded-3" id="navbar-caption">
             <div class="row" id="resume-1">
                 <div class="col-lg-6 p-5" id="caption-1">
-                    <img src="other/image-video/profile.jpg" alt="" id="caption-1-img">
-                    <a id="caption-1-caption-holder">
-                        <div id="caption-1-caption">
+                    <img src="other/image-video/profile.jpg" alt="">
+                    <a>
+                        <div>
                             nightOFcode
                         </div>
                     </a>

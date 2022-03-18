@@ -88,14 +88,32 @@
         border-radius: 3px;
     }
 
-    #caption-1-img {
+    #teamResume-holder {
+        margin-top: 60px !important;
+        text-align: center;
+        /*border-radius: 50% 50% 0 0;*/
+        border-radius: 3px;
+    }
+
+    #caption-1 img {
         border-radius: 50%;
         width: 200px;
         height: 200px;
         border: 1px solid rgba(255, 255, 255, 0.125);
     }
 
-    #caption-1-caption-holder {
+    #teamCaption-1 {
+        text-align: center;
+    }
+
+    #teamCaption-1 img {
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        border: 1px solid rgba(255, 255, 255, 0.125);
+    }
+
+    #caption-1 a {
         padding: 10px;
         font-size: 40px;
         text-align: center;
@@ -103,7 +121,26 @@
         display: block;
     }
 
-    #caption-1-caption {
+    #teamCaption-1 a {
+        padding: 10px;
+        font-size: 40px;
+        text-align: center;
+        width: 100%;
+        display: block;
+    }
+
+    #caption-1 div {
+        display: inline-block;
+        background: rgb(135, 206, 250);
+        background: -moz-linear-gradient(150deg, rgba(135, 206, 250, 1) 0%, rgba(4, 27, 91, 1) 100%);
+        background: -webkit-linear-gradient(150deg, rgba(135, 206, 250, 1) 0%, rgba(4, 27, 91, 1) 100%);
+        background: linear-gradient(150deg, rgba(135, 206, 250, 1) 0%, rgba(4, 27, 91, 1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#87cefa", endColorstr="#041b5b", GradientType=1);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    #teamCaption-1 div {
         display: inline-block;
         background: rgb(135, 206, 250);
         background: -moz-linear-gradient(150deg, rgba(135, 206, 250, 1) 0%, rgba(4, 27, 91, 1) 100%);
@@ -115,6 +152,11 @@
     }
 
     #resume-1 {
+        font-size: 20px;
+        text-align: start;
+    }
+
+    #teamResume-1 {
         font-size: 20px;
         text-align: start;
     }
@@ -241,18 +283,7 @@
         color: #a0a0a0;
     }
 
-    .disabled {
-        cursor: default;
-        color: white;
-    }
-
-    .disabled:hover {
-        background: black;
-        color: #a0a0a0 !important;
-    }
-
     /*navbar transition*/
-
     .navbar {
         transition: 300ms;
         font-size: 15px !important;

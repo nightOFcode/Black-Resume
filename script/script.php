@@ -2,16 +2,6 @@
 
     $(document).ready(function () {
         var visible = $('#offcanvas').is("visible");
-        var resume_list = $("#resume-list");
-
-        /*RESUME OFFCANVAS*/
-        $('#resume-holder').click(function () {
-            if ($(resume_list).css("display") === "none") {
-                $(resume_list).slideToggle(500);
-            } else {
-                $(resume_list).slideToggle(500);
-            }
-        });
 
         /*NETWORK OFFCANVAS*/
         var network_list = $("#network-list");
