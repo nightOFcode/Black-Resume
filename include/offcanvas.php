@@ -44,7 +44,8 @@
             </a>
         </div>
         <div class="container">
-            <a href="https://discord.com/channels/759457381552881704/931034643103383604" class="text-decoration-none" target="_blank">
+            <a href="https://discord.com/channels/759457381552881704/931034643103383604" class="text-decoration-none"
+               target="_blank">
                 <div class="hover holder-sidebar my-2">
                     Team Discord
                 </div>

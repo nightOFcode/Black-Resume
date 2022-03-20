@@ -336,18 +336,26 @@
         }
     }
 
-    @media (max-height: 740px) {
+
+    @media (max-height: 800px) {
         #divider-contact {
-            height: 50px;
+            margin: 50px 0 0 0;
+            display: flex;
+            text-align: center;
+            align-items: end;
+            height: 100px;
         }
 
         #footer-contact {
             position: relative !important;
-            bottom: 0;
         }
 
         #contact-margin {
             margin-top: 70px !important;
+        }
+
+        #btn-contact-holder {
+            text-align: center;
         }
     }
 
@@ -358,10 +366,6 @@
 
         #work-holder {
             font-size: 16px;
-        }
-
-        #btn-contact {
-            text-align: center;
         }
 
         .footer-text {

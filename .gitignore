@@ -6,8 +6,6 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
-/contact.php
-/serverside/form.php
 /.idea/
 /node_modules/
 /vendor/
