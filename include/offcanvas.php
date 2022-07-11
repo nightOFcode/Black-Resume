@@ -36,21 +36,5 @@
                 </div>
             </a>
         </div>
-        <div class="container">
-            <a href="https://github.com/BlackSpaceTeam" class="text-decoration-none" target="_blank">
-                <div class="hover holder-sidebar my-2">
-                    Team Github
-                </div>
-            </a>
-        </div>
-        <div class="container">
-            <a href="https://discord.com/channels/759457381552881704/931034643103383604" class="text-decoration-none"
-               target="_blank">
-                <div class="hover holder-sidebar my-2">
-                    Team Discord
-                </div>
-            </a>
-        </div>
     </div>
 </nav>
-
