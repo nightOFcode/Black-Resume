@@ -23,7 +23,7 @@
             <div class="nav-item mx-2 text-center">
                 <a href="index.php" class="nav-link navbar-item hover" data-bs-toggle="tooltip"
                    data-popper-placement="bottom"
-                   title="Contact Page">Home</a>
+                   title="Black Resume">Home</a>
             </div>
             <div class="nav-item mx-2 text-center">
                 <a href="contact.php" class="nav-link navbar-item hover" data-bs-toggle="tooltip"
@@ -34,14 +34,6 @@
                 <a href="works.php" class="nav-link navbar-item hover" data-bs-toggle="tooltip"
                    data-popper-placement="bottom"
                    title="Works Page">Works</a>
-            </div>
-            <div class="nav-item mx-2 text-center">
-                <a href="https://discord.com/channels/759457381552881704/931034643103383604"
-                   target="_blank"
-                   download=""
-                   class="nav-link navbar-item hover" data-bs-toggle="tooltip"
-                   data-popper-placement="bottom"
-                   title="Black Space site">Black Space</a>
             </div>
         </div>
     </div>
