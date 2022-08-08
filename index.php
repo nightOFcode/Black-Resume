@@ -71,15 +71,15 @@
                 </div>
                 <div class="col-xxl-6 p-4 p-md-4 text-capitalize">
                     <b>
-                        ♻ CONTACT US ♻
+                        ♻ CONTACT ME ♻
                     </b>
                     <br>
                     <br>
                     ✔ this site is in develop
                     <br>
-                    ✔ so feel free to contact us
+                    ✔ so feel free to contact me
                     <br>
-                    ✔ and tell your opinion
+                    ✔ and tell your opinions
                     <br>
                     ✔ I will be happy to improve it
                     <br>
