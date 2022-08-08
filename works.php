@@ -61,7 +61,7 @@
                     <br>
                     <br>
                     <div class="info-holder">
-                        <a href="https://github.com/nightOFcode/Golden">
+                        <a href="https://github.com/nightOFcode/Golden" target="_blank">
                             <button class="hover btn content-btn">
                                 More
                             </button>
@@ -73,25 +73,25 @@
         <div class="reveal fade-left">
             <div class="rounded-3 position-relative row theme mt-5" id="work">
                 <div class="col-xl-6 p-2">
-                    <img src="other/image-video/black-space.jpg" class="w-100 rounded-3" alt="">
+                    <img src="other/image-video/mygithub.jpg" class="w-100 rounded-3" alt="">
                 </div>
                 <div class="col-xl-6 p-4 text-capitalize">
                     <b>
-                        ☢ TEAM DISCORD ☢
+                        ☢ My GitHub ☢
                     </b>
                     <br>
                     <br>
-                    ✔ our team is working on discord server
+                    ✔ i always upload new projects
                     <br>
-                    ✔ with different useful tools
+                    ✔ on my GitHub account so
                     <br>
-                    ✔ and other futures
+                    ✔ if you want to see more work
                     <br>
-                    ✔ have a lock
+                    ✔ touch the link down below
                     <br>
                     <br>
                     <div class="info-holder">
-                        <a href="https://github.com/nightOFcode/Golden">
+                        <a href="https://github.com/nightOFcode" target="_blank">
                             <button class="hover btn content-btn">
                                 More
                             </button>
